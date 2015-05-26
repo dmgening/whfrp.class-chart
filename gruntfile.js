@@ -31,7 +31,9 @@ module.exports = function(grunt){
       build: {
         options: {
           banner: '/*! <%= pkg.name %> <=% pkg.version %> Build: <=% grunt.template.today("dd-mm-yyyy") %> */\n',
-          minimaize: false
+          beautify: true,
+          mangle: false,
+          ASCIIOnly: true
         },
         files: {
           'dist/app.min.js': ['dist/app.js']
