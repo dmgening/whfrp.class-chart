@@ -1,7 +1,7 @@
 {
   "agitator": {
     "name": "Agitator",
-    "type": "basic",
+    "type": "Basic",
     "conditions": ["Elves"],
     "quote": "Friend -step closer! I would like to make you aware of a dire situation... an atrocity you may not be aware of. There’s trouble my friend, trouble right here Altdorf.",
     "description": "(Core) For the most part, the people of the Empire have little say in politics. The Emperor and the Elector Counts make and enforce the laws, with the support of the various churches (Sigmar and Ulric most conspicuously). Nonetheless, ardent political activists are a common sight in the cities of the Empire. These Agitators organize on behalf of various causes, handing out leaflets, giving rousing speeches, and stirring up the populace. The lunatic fringe is simply ignored, but successful Agitators – those who can tap into the wellspring of Peasant and Burgher resentment – are usually viewed as a threat to the state. They are hounded by local watchman, accused of heresy by church officials, or forced to submit to the tender mercies of the Witch Hunters. Agitators continue on despite the risks. Some truly believe in their cause, but others are cynical power seekers as corrupt as those they rail against.",

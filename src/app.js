@@ -23,10 +23,32 @@ var line = d3.svg.line.radial()
     .radius(function(d) { return d.y; })
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
-var active_class = undefined;
+var active_career = undefined;
+var careers = undefined
+
+function updateTooltip(career_name){
+  career = careers[career_name]
+  d3.select('#classname').text(career.name)
+  d3.select('#quote').text(career.quote)
+  d3.select('#skills').text(career.skills)
+  d3.select('#talents').text(career.talents)
+  d3.select('#trappings').text(career.trappings)
+  d3.select('#description').text(career.description)
+  d3.select('#main-profile').selectAll('td').data(career.mainprofile).enter()
+    .append('td').text(function(d){ return d; })
+  d3.select('#secondary-profile').selectAll('td').data(career.secondaryprofile).enter()
+    .append('td').text(function(d){ return d; })
+}
+
 
 d3.json("data/careers.json", function(error, classes) {
-  console.log(classes)
+  careers = classes
+  lis = d3.select('#classlist ul').selectAll('li').data(Object.keys(classes))
+        .enter().append('li');
+  lis.append('a').attr('id', function(d){ return '' }).text(function(d){ return classes[d].name }).on('click', updateTooltip)
+  lis.append('span').attr('class', function(d){ 
+    return 'pull-right label label-' + classes[d].type.toLowerCase();
+  }).text(function(d){ return classes[d].type[0]; });
 })
 
 
