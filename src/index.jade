@@ -1,0 +1,75 @@
+doctype html
+html(lang="en")
+  head
+    title WHFRP 2 ed. Carier Compendum Navigator
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css")
+    link(rel="stylesheet", href="app.css")
+  body
+    .container-fluid.hstretch
+      .row.hstretch
+        .col-lg-2.col-md-2.sidebar.nopadding
+          form
+            .form-group
+              label.sr-only(for=classsearch) Search
+              input.form-control#classsearch(type=text, placeholder="Search")
+          #classlist
+            ul
+        .col-lg-7.col-md-6
+          svg#classwheel(viewbox="0 0 1000 1000")
+        .col-lg-3.col-md-4.sidebar#classinfo
+          h1#classname 
+          p#quote 
+          table.table.table-bordered#profiles
+            tr.header
+              td(colspan=8) Main Profile
+            tr.sub-header
+              td WS
+              td BS
+              td S
+              td T
+              td Ag
+              td Int
+              td WP
+              td Fel
+            tr#main-profile
+              td -
+              td -
+              td -
+              td -
+              td -
+              td -
+              td -
+              td -
+            tr.header
+              td(colspan=8) Secondary Profile
+            tr.sub-header
+              td A
+              td W
+              td SB
+              td TB
+              td M
+              td Mag
+              td IP
+              td FP
+            tr#secondary-profile
+              td -
+              td -
+              td -
+              td -
+              td -
+              td -
+              td -
+              td -
+          h4 Skills
+          p#skills
+          h4 Talents
+          p#talents
+          h4 Trappings
+          p#trappings
+          h4 Carier Entries
+          p#entries
+          h4 Carier Exits
+          p#exits
+          h4 Description
+          p#description
+    script(src="app.min.js")

@@ -1,0 +1,83 @@
+html, body, .hstretch {
+  height:100vh; 
+}
+
+.sidebar {
+  background: #EEE;
+  border-left: 1px solid #888;
+  border-right: 1px solid #888;
+  height: 100vh;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+#classlist {
+  overflow: scroll;
+  height:96%;
+  ul {
+    list-style-type:none;
+    padding: 0;
+    li {
+      padding: 5px;
+      border-bottom: 1px solid #888;
+    }
+    li:first-child {
+      border-top: 1px solid #888;
+    }
+  }
+  .label-basic {
+    padding: 5px;
+    margin-left: 5px;
+    background-color: #29a329;
+  }
+  .label-advanced {
+    padding: 5px;
+    margin-left: 5px;
+    background-color: #c3c322;
+  }
+  .label-special {
+    padding: 5px;
+    margin-left: 5px;
+    background-color: #ad2bee;
+  }
+  .label-condition {
+    padding: 5px;
+    margin-left: 5px;
+    background-color: #3d62f5;
+  }
+}
+
+#classinfo {
+  #quote {
+    font-style: italic;
+  }
+
+  #profiles {
+    table-layout:fixed;
+
+    tr > td {
+      text-align: center;
+    }
+
+    tr.header > td {
+      background: #333;
+      color: #EEE;
+      font-weight: bold;
+    }
+
+    tr.sub-header > td {
+      background: #777;
+      color: #EEE;
+      font-weight: bold;
+    }
+  }
+}
+
+#wheel {
+  max-height: 100vh;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+}

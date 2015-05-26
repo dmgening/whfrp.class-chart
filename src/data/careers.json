@@ -1,0 +1,16 @@
+{
+  "agitator": {
+    "name": "Agitator",
+    "type": "basic",
+    "conditions": ["Elves"],
+    "quote": "Friend -step closer! I would like to make you aware of a dire situation... an atrocity you may not be aware of. There’s trouble my friend, trouble right here Altdorf.",
+    "description": "(Core) For the most part, the people of the Empire have little say in politics. The Emperor and the Elector Counts make and enforce the laws, with the support of the various churches (Sigmar and Ulric most conspicuously). Nonetheless, ardent political activists are a common sight in the cities of the Empire. These Agitators organize on behalf of various causes, handing out leaflets, giving rousing speeches, and stirring up the populace. The lunatic fringe is simply ignored, but successful Agitators – those who can tap into the wellspring of Peasant and Burgher resentment – are usually viewed as a threat to the state. They are hounded by local watchman, accused of heresy by church officials, or forced to submit to the tender mercies of the Witch Hunters. Agitators continue on despite the risks. Some truly believe in their cause, but others are cynical power seekers as corrupt as those they rail against.",
+    "mainprofile": ["+5%", "+5%", "-", "-", "+5%", "+10%", "-", "+10%"],
+    "secondaryprofile": ["-", "+2", "-", "-", "-", "-", "-", "-"],
+    "skills": "Academic Knowledge (History) or Gossip, Academic Knowledge (Law) or Common Knowledge (the Empire), Concealment, Charm, Perception, Read/Write, Speak Language (Breton or Tilean), Speak Language (Reikspiel)",
+    "talents": "Coolheaded or Street Fighting, Flee!, Public Speaking",
+    "trappings": "Light Armour (Leather Jack), One set of Good Craftsmenship Clothes, 2d10 leaflets for various causes",
+    "entries": ["burgher", "captain", "herald", "highwayman", "scribe", "servant", "student", "zealot"],
+    "exits": ["charlatan", "demagogue", "ex-convict", "outlaw", "politician", "rogue", "zealot"]
+  }
+}
