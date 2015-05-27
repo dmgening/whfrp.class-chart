@@ -22,8 +22,11 @@ def split_literal(line, literal, append=None):
 
 if __name__ == '__main__':
     results = dict()
-    with open('cc.txt') as compendum:
+    lnum = 0
+    with open('cc.full.txt') as compendum:
         for line in compendum.readlines():
+            lnum += 1
+            srcline = line
             try:
                 career = dict()
                 # Remove page header and trailing whitespaces
@@ -46,7 +49,8 @@ if __name__ == '__main__':
                 career['quote'], line = split_literal(line, '(', 'tail')
                 # Parse description
                 if career.get('special'):
-                    career['description'], line = split_literal(line, 'Note: ')
+                    sep = 'Note: ' if line.find('Note: ') > 0 else 'Special Requirements: '
+                    career['description'], line = split_literal(line, sep)
                     career['special'], line = split_literal(line, 'Main Pr')
                 else:
                     career['description'], line = split_literal(line, 'Main Pr')
@@ -59,19 +63,18 @@ if __name__ == '__main__':
                 career['secondaryprofile'], line = split_literal(line, 'Skills: ')
                 career['secondaryprofile'] = career['secondaryprofile'].replace('\xe2\x80\x93', '+-')\
                     .replace(' ', '').replace('%', '').strip('+').split('+')
-                # TODO: Rewrite splits as re.findAll
                 career['skills'], line = split_literal(line, 'Talents: ')
-                career['skills'] = map(lambda x: x.strip(), career['skills'].split(','))
+                career['skills'] = map(lambda x: x.strip(), re.findall('(.+?(?:\(.+?\))?),', career['skills']))
                 career['talents'], line = split_literal(line, 'Trappings: ')
-                career['talents'] = map(lambda x: x.strip(), career['talents'].split(','))
+                career['talents'] = map(lambda x: x.strip(), re.findall('(.+?(?:\(.+?\))?),', career['talents']))
                 career['trappings'], line = split_literal(line, 'Entries: ')
-                career['trappings'] = map(lambda x: x.strip(), career['trappings'].split(','))
+                career['trappings'] = map(lambda x: x.strip(), re.findall('(.+?(?:\(.+?\))?),', career['trappings']))
                 career['entries'], line = split_literal(line, 'Exits: ')
                 career['entries'] = map(lambda x: x.strip().lower().replace(' ', '_'), career['entries'].split(','))
                 career['exits'] = re.match('^.*?[A-Z][a-z]+[A-Z]', line).group()[:-1]
                 career['exits'] = map(lambda x: x.strip().lower().replace(' ', '_'), career['exits'].split(','))
-            except (ValueError, IndexError), e:
-                print 'ERROR: {}\nLINE: {}'.format(e, line)
+            except Exception, e:
+                print '[{2}]ERROR: {0}\nLINE: {1}'.format(e, srcline, lnum)
             results[career.get('name').lower().replace(' ', '_')] = career
     with open('resuls.json', 'w') as results_file:
         json.dump(results, results_file)
