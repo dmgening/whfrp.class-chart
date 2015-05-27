@@ -74,15 +74,14 @@ d3.json("data/careers.json", function(error, classes) {
   }
 
   careers = classes;
-  var nodes = cluster.nodes(packageHierarchy(careers)),
-      links = packageImports(nodes);
+  //var nodes = cluster.nodes(packageHierarchy(careers)),
+  //    links = packageImports(nodes);
 
-  lis = d3.select('#classlist ul').selectAll('li').data(Object.keys(classes))
+  lis = d3.select('#classlist ul').selectAll('li').data(Object.keys(careers))
         .enter().append('li');
-  lis.append('a').attr('id', function(d){ return '' }).text(function(d){ return classes[d].name }).on('click', updateActive)
+  lis.append('a').attr('id', function(d){ return '' }).text(function(d){ return careers[d].name }).on('click', updateActive)
   lis.append('span').attr('class', function(d){
-    return 'pull-right label label-' + classes[d].type.toLowerCase();
-  }).text(function(d){ return classes[d].type[0]; });
-
+    return 'pull-right label label-' + careers[d].type.toLowerCase();
+  }).text(function(d){ return careers[d].type[0]; });
 
 })

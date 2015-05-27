@@ -67,9 +67,9 @@ if __name__ == '__main__':
                 career['skills'] = map(lambda x: x.strip(), re.findall('(.+?(?:\(.+?\))?),', career['skills']))
                 career['talents'], line = split_literal(line, 'Trappings: ')
                 career['talents'] = map(lambda x: x.strip(), re.findall('(.+?(?:\(.+?\))?),', career['talents']))
-                career['trappings'], line = split_literal(line, 'Entries: ')
+                career['trappings'], line = split_literal(line, 'Career Entries: ')
                 career['trappings'] = map(lambda x: x.strip(), re.findall('(.+?(?:\(.+?\))?),', career['trappings']))
-                career['entries'], line = split_literal(line, 'Exits: ')
+                career['entries'], line = split_literal(line, 'Career Exits: ')
                 career['entries'] = map(lambda x: x.strip().lower().replace(' ', '_'), career['entries'].split(','))
                 career['exits'] = re.match('^.*?[A-Z][a-z]+[A-Z]', line).group()[:-1]
                 career['exits'] = map(lambda x: x.strip().lower().replace(' ', '_'), career['exits'].split(','))

@@ -5,7 +5,7 @@
             "anointed_priest",
             "high_priest",
             "monk",
-            "scholarcareer"
+            "scholar"
         ],
         "exits": [
             "high_priest",
@@ -61,7 +61,7 @@
         "description": "(SoE) Commanding a \ufb02eet of ships, Admirals are the true lords of the sea. While most are employed by one of the navies of the Old World, some Admirals are pirates commanding a \ufb02otilla of bloodthirsty marauders. Many Sea Captains envy their position, so Admirals must be quick-witted and charismatic to see o\ufb00 attacks; after all, once at sea, almost anything can happen, and only the survivors can tell the tale. Because of this, many Admirals are paranoid individuals who are jealous of their power, and most are quick to end any imagined mutiny with their loyal Marines or Pirates.",
         "entries": [
             "noble_lord",
-            "sea_captaincareer"
+            "sea_captain"
         ],
         "exits": [
             "ambassador",
@@ -123,7 +123,7 @@
             "scholar",
             "student",
             "tomb_robber",
-            "vampire_huntercareer"
+            "vampire_hunter"
         ],
         "exits": [
             "killer_of_the_dead",
@@ -194,7 +194,7 @@
             "scribe",
             "servant",
             "student",
-            "zealotcareer"
+            "zealot"
         ],
         "exits": [
             "charlatan",
@@ -248,7 +248,7 @@
     "anchorite": {
         "description": "(RC) Some people feel that they can only follow their own mystical leanings alone, away from the distractions of civilisation, conversation, and soap. These individuals become Anchorites, staking claim to a cave, or the top of a pillar of rock, somewhere in the Borderlands. They have few or no possessions, so bandits rarely bother them. Greenskins and other monsters are still likely to kill them if they can catch them, so Anchorites learn how to hide and run away.",
         "entries": [
-            "nonecareer"
+            "none"
         ],
         "exits": [
             "badlander",
@@ -303,7 +303,7 @@
             "hunter",
             "muleskinner",
             "peasant",
-            "rat_catchercareer"
+            "rat_catcher"
         ],
         "exits": [
             "bear_tamer",
@@ -360,7 +360,7 @@
     "anointed_priest": {
         "description": "(Core) A priest who has consistently upheld the tenets of his church is chosen by his God to take on greater power and responsibility. Anointed Priests are gifted with the Divine Lore of the deity they serve and consequently, they\u2019re expected to take on challenges suitable to their new blessings. They often have all the attributes that their God admires, acting as beacons of faith to others in the Old World. Anointed Priests are greatly trusted by the common folk, who will often listen to them over both Nobles and Politicians, granting them a great deal of temporal power to complement the spiritual.",
         "entries": [
-            "priestcareer"
+            "priest"
         ],
         "exits": [
             "demagogue",
@@ -418,7 +418,7 @@
             "apprentice_wizard",
             "barber-surgeon",
             "hedge_wizard",
-            "studentcareer"
+            "student"
         ],
         "exits": [
             "apprentice_wizard",
@@ -477,7 +477,7 @@
             "artisan",
             "runebearer",
             "scribe",
-            "studentcareer"
+            "student"
         ],
         "exits": [
             "journeyman_runesmith",
@@ -527,7 +527,7 @@
     "apprentice_witch": {
         "description": "(RotIQ) Every year, ice witches emerge from the frozen oblast to assess shivering Gospodar girls. The rare girl demonstrating magical talent is taken away and is unlikely to see her family again. Barely old enough to be called women, these apprentices-to-be are led into the depths of Kislev\u2019s cruel winter, and there, they are taught the ways of the Khan-Queens of old. Those who survive (and many do not) are forever changed: they are cold, aloof, mature well beyond their years, and very aware of their insigni\ufb01cance beside the might of the Ancient Widow\u2019s glacial heart. Eventually, these successful apprentices will be released from their mistresses and allowed to venture forth as \u201cmaidens of the ice.\u201d",
         "entries": [
-            "anycareer"
+            "any"
         ],
         "exits": [
             "ice_maiden",
@@ -586,7 +586,7 @@
             "hedge_wizard",
             "scholar",
             "scribe",
-            "student_career"
+            "student"
         ],
         "exits": [
             "journeyman_wizard",
@@ -638,7 +638,7 @@
         "description": "(WC) The Artillerist is skilled at operating all manner of siege weapons, from the ballista to the trebuchet, and even gunpowder devices like the cannon, mortar and Hellblaster Volley Gun of the Imperial arsenal. Field repairs are often necessary when a wheel breaks or a gun carriage cracks, and a smart Artillerist quickly learns how to make temporary repairs to ensure minimal interruption in \ufb01ring rate. Artillerists rely on teamwork and command groups of Engineers to operate their weapons e\ufb00ectively. They are rarely found outside of a large army.Part engineer, part soldier, and all target, Artillerists must learn to take care of themselves on the battle\ufb01eld. Generally they are far enough behind the battle lines to be out of danger, but the e\ufb00ectiveness of their weaponry makes them favourite targets for enemy missile \ufb01re, \ufb02ying creatures, and magical attacks. Also, moving the various engines around is hard work under the best of conditions; over muddy, rutted, rock-strewn battle\ufb01elds it can be an endurance test with lives hanging in the balance. The career of an Artillerist is not all glory, as is frequently supposed.",
         "entries": [
             "engineer",
-            "sergeantcareer"
+            "sergeant"
         ],
         "exits": [
             "artisan",
@@ -699,7 +699,7 @@
             "engineer",
             "militiaman",
             "navigator",
-            "tradesmancareer"
+            "tradesman"
         ],
         "exits": [
             "demagogue",
@@ -753,7 +753,7 @@
             "judicial_champion",
             "outlaw_chief",
             "spy",
-            "targeteercareer"
+            "targeteer"
         ],
         "exits": [
             "champion",
@@ -825,7 +825,7 @@
             "noble",
             "physician",
             "scholar",
-            "studentcareer"
+            "student"
         ],
         "exits": [
             "apprentice_wizard",
@@ -889,7 +889,7 @@
             "captain",
             "horse_master",
             "noble",
-            "veterancareer"
+            "veteran"
         ],
         "exits": [
             "politician",
@@ -942,7 +942,7 @@
         "entries": [
             "anchorite",
             "peasant",
-            "vagabondcareer"
+            "vagabond"
         ],
         "exits": [
             "cat_burglar",
@@ -990,7 +990,7 @@
         "entries": [
             "explorer",
             "outlaw_chief",
-            "scoutcareer"
+            "scout"
         ],
         "exits": [
             "captain",
@@ -1048,7 +1048,7 @@
         "description": "(Core) Baili\ufb00s are manorial o\ufb03cials in the service of Noble Lords. While many of their duties involve the upkeep of the lands and resources of the manor proper, they are notorious amongst the peasantry for something else entirely. Baili\ufb00s are collectors of rents and taxes from the villages surrounding their manors, and enforcers of the Peasants\u2019 labour obligations to their lords. These duties make them deeply unpopular with the villagers, particularly during the lean times. As the hated face of lordly imposition, Baili\ufb00s are the \ufb01rst to die when the Peasants get angry and revolt. ",
         "entries": [
             "bodyguard",
-            "jailercareer"
+            "jailer"
         ],
         "exits": [
             "militiaman",
@@ -1103,7 +1103,7 @@
         "entries": [
             "dilettante",
             "initiate",
-            "studentcareer"
+            "student"
         ],
         "exits": [
             "interrogator",
@@ -1153,7 +1153,7 @@
     "battle_pilgrim": {
         "description": "(KotG) Battle Pilgrims are Grail Pilgrims who have survived following their Grail Knight for some time. As a result, they have become competent \ufb01ghters. In most cases, they have also become even more fervent admirers of their Grail Knight and worshippers of the Lady of the Lake, having seen what the \ufb02ower of Bretonnian chivalry is truly capable of.Battle Pilgrims are the e\ufb00ective leaders of groups of Grail Pilgrims, as the Grail Knight never condescends to give orders to peasant rabble. Some Grail Pilgrims resent taking orders from someone no better than they, so Battle Pilgrims often have to impose order by force. Wiser Grail Pilgrims note that their chances of survival are greatly increased by doing as the Battle Pilgrims say.",
         "entries": [
-            "grail_pilgrimcareer"
+            "grail_pilgrim"
         ],
         "exits": [
             "faceless",
@@ -1212,7 +1212,7 @@
         "entries": [
             "entertainer",
             "initiate_of_ursun",
-            "priest_of_ursuncareer"
+            "priest_of_ursun"
         ],
         "exits": [
             "animal_trainer",
@@ -1269,7 +1269,7 @@
             "sergeant",
             "squire",
             "vampire_hunter",
-            "witch_huntercareer"
+            "witch_hunter"
         ],
         "exits": [
             "captain",
@@ -1328,7 +1328,7 @@
         "description": "(Core) The rivers of the Empire are vital arteries of communication and commerce. They provide speedy transportation and link most of the major cities of the realm. Boatmen ply these busy waterways, taking passengers and goods throughout the Empire and even into Kislev. Although the rivers are safer than the dark forest roads, they are not without danger. Many routes pass through wild country untouched by civilisation. Boatmen must be ready to protect their cargoes and fares from raiders and bandits. Experienced Boatmen are tough and resourceful, equally adept at boat handling, navigation, and combat. ",
         "entries": [
             "ferryman",
-            "smugglercareer"
+            "smuggler"
         ],
         "exits": [
             "fisherman",
@@ -1383,7 +1383,7 @@
             "estalian_diestro",
             "jailer",
             "mercenary",
-            "thugcareer"
+            "thug"
         ],
         "exits": [
             "baili\ufb00",
@@ -1440,7 +1440,7 @@
         "entries": [
             "berserker",
             "mercenary",
-            "pit_fightercareer"
+            "pit_fighter"
         ],
         "exits": [
             "berserker",
@@ -1498,7 +1498,7 @@
         "entries": [
             "peasant",
             "rat_catcher",
-            "vagabondcareer"
+            "vagabond"
         ],
         "exits": [
             "camp_follower",
@@ -1554,7 +1554,7 @@
             "noble",
             "outlaw_chief",
             "politician",
-            "sergeantcareer"
+            "sergeant"
         ],
         "exits": [
             "assassin",
@@ -1619,7 +1619,7 @@
             "hunter",
             "kislevite_kossar",
             "mercenary",
-            "pit_fightercareer"
+            "pit_fighter"
         ],
         "exits": [
             "mercenary",
@@ -1675,7 +1675,7 @@
         "description": "(Core) As cities have become more and more important to the Empire, a new class of citizen has emerged: the Burgher. Burghers \u2013 or their ancestors \u2013 clawed their way up from the peasantry and made new lives for themselves in the cities. Now they are the glue that holds urban society together. Burghers are shop owners, petty merchants, excisemen, traders, and local o\ufb03cials. They are neither as despised as the peasantry nor as exalted as the nobility. While they su\ufb00er the most from plague, living in tightly packed neighbourhoods as they do, they would not leave the city for a life of hard toil in the country. In their minds, cities breed opportunity, not just disease. ",
         "entries": [
             "innkeeper",
-            "servantcareer"
+            "servant"
         ],
         "exits": [
             "agitator",
@@ -1730,7 +1730,7 @@
             "roadwarden",
             "soldier",
             "squire",
-            "studentcareer"
+            "student"
         ],
         "exits": [
             "herald",
@@ -1789,7 +1789,7 @@
         "description": "(Core) In the Empire, armies are always on the move. Forces range from local militia units scouring the forest for bandits to the full armed might of the Emperor taking the \ufb01eld against greenskins or the forces of Chaos. No army travels alone. A caravan of Camp Followers always trails behind. They include petty traders looking to make extra money, war widows trying to make a wage cooking or sewing, and corpse looters hoping to scavenge battle\ufb01elds. While scorned by the Noble leaders of many armies, Camp Followers provide key support for troops in the \ufb01eld. ",
         "entries": [
             "bone_picker",
-            "servantcareer"
+            "servant"
         ],
         "exits": [
             "charcoal-burner",
@@ -1852,7 +1852,7 @@
             "initiate",
             "minstrel",
             "monk",
-            "priestcareer"
+            "priest"
         ],
         "exits": [
             "catechist",
@@ -1910,7 +1910,7 @@
             "noble_lord",
             "outlaw_chief",
             "sergeant",
-            "witch_huntercareer"
+            "witch_hunter"
         ],
         "exits": [
             "agitator",
@@ -1975,7 +1975,7 @@
             "outrider",
             "peasant",
             "woodsman",
-            "vagabondcareer"
+            "vagabond"
         ],
         "exits": [
             "grail_pilgrim",
@@ -2038,7 +2038,7 @@
             "scout",
             "scribe",
             "student",
-            "tradesmancareer"
+            "tradesman"
         ],
         "exits": [
             "artisan",
@@ -2098,7 +2098,7 @@
             "ex-convict",
             "grave_robber",
             "rat_catcher",
-            "thiefcareer"
+            "thief"
         ],
         "exits": [
             "crime_lord",
@@ -2162,7 +2162,7 @@
             "scholar",
             "scribe",
             "student",
-            "zealotcareer"
+            "zealot"
         ],
         "exits": [
             "demagogue",
@@ -2209,7 +2209,7 @@
     "cenobite": {
         "description": "(RC) Cenobites live in communities, generally called monasteries, and follow the advice of a leader. The leader is often charismatic but often equally insane. At the very least, they are fanatical followers of a very personal vision of the truth (the con-artists do not set up in the Borderlands). Most Cenobites are Human; members of other races rarely show much interest, though most monasteries would admit them if they asked. Unwanted children are sometimes left on the doorsteps of monasteries. These children are taken in; those who do not run away are accepted as Cenobites. Most run away.Option: It is possible for those who seek to purify mind and body to volunteer to become cenobites, even though most are raised in the role. With GM approval, the cenobite career may be entered from apprentice wizard, initiate, grave robber, or zealot. ",
         "entries": [
-            "nonecareer"
+            "none"
         ],
         "exits": [
             "mystic",
@@ -2263,7 +2263,7 @@
             "knight_of_the_inner_circle",
             "targeteer",
             "veteran",
-            "witch_huntercareer"
+            "witch_hunter"
         ],
         "exits": [
             "assassin",
@@ -2318,7 +2318,7 @@
             "camp_follower",
             "hunter",
             "miner",
-            "peasantcareer"
+            "peasant"
         ],
         "exits": [
             "hunter",
@@ -2384,7 +2384,7 @@
             "rapscallion",
             "rogue",
             "smuggler",
-            "thiefcareer"
+            "thief"
         ],
         "exits": [
             "cat_burglar",
@@ -2450,7 +2450,7 @@
             "protagonist",
             "streltsi",
             "thug",
-            "watchmancareer"
+            "watchman"
         ],
         "exits": [
             "jailer",
@@ -2512,7 +2512,7 @@
             "miner",
             "peasant",
             "rogue",
-            "thiefcareer"
+            "thief"
         ],
         "exits": [
             "cat_burglar",
@@ -2574,7 +2574,7 @@
             "scout",
             "spy",
             "veteran",
-            "witch_huntercareer"
+            "witch_hunter"
         ],
         "exits": [
             "assassin",
@@ -2646,7 +2646,7 @@
         "description": "(Core) While the Empire is a mighty nation, its lands are far from safe. Large stretches of it have never been paci\ufb01ed or cultivated. A precarious system of roads connects the villages, towns, and cities, and it is here that the Coachmen earn their pay, working for one of the many Imperially chartered coaching companies. The roads are frequently in ill repair or plagued by Goblins, Beastmen, and brigands. Nonetheless, the Coachmen risk life and limb to bring passengers and cargo safely through the hazards of the Imperial roadways. Each day is a race to reach the next settlement or coaching inn before sunset. No one wants to be on the road in the dark of the night, especially when the Chaos moon is in the sky. ",
         "entries": [
             "outrider",
-            "messengercareer"
+            "messenger"
         ],
         "exits": [
             "cartographer",
@@ -2707,7 +2707,7 @@
             "noble",
             "herald",
             "pistolier",
-            "politiciancareer"
+            "politician"
         ],
         "exits": [
             "charlatan",
@@ -2770,7 +2770,7 @@
             "master_thief",
             "outlaw_chief",
             "politician",
-            "stewardcareer"
+            "steward"
         ],
         "exits": [
             "demagogue",
@@ -2835,7 +2835,7 @@
             "knight",
             "noble_lord",
             "sergeant",
-            "veterancareer"
+            "veteran"
         ],
         "exits": [
             "captain",
@@ -2902,7 +2902,7 @@
             "initiate",
             "messenger",
             "priest",
-            "valetcareer"
+            "valet"
         ],
         "exits": [
             "politician",
@@ -2954,7 +2954,7 @@
             "shieldbreaker",
             "soldier",
             "tomb_raider",
-            "watchmancareer"
+            "watchman"
         ],
         "exits": [
             "engineer",
@@ -3024,7 +3024,7 @@
             "prelate",
             "rogue",
             "vampire_hunter",
-            "witch_huntercareer"
+            "witch_hunter"
         ],
         "exits": [
             "crime_lord",
@@ -3080,7 +3080,7 @@
     "dilettante": {
         "description": "(New) Dilettantes like to think of themselves as scholars, and, indeed, they may pass as scholars among most folk; they read and write, for a start. However, they often lack the discipline or passion that leads true scholars to focus on one task and become truly skilled at that, rather spreading their e\ufb00orts across many. Most dilettantes are from wealthy backgrounds; the poor \ufb01nd that imminent starvation focuses the mind wonderfully.A dilettante prides himself on knowing a little bit about almost everything, starting a variety of projects, pursuing a dozen interests at the same time. A dilettante is a professional amateur \u2013 interested in the arts, the burgeoning \ufb01eld of science, literature, religion, and virtually any other topic. At least, until another subject matter comes along and grabs their attention.",
         "entries": [
-            "any_career_that_includes_read/write_as_a_skill.career"
+            "any_career_that_includes_read/write_as_a_skill."
         ],
         "exits": [
             "apprentice_wizard",
@@ -3147,7 +3147,7 @@
             "coachman",
             "messenger",
             "outrider",
-            "steppes_nomadcareer"
+            "steppes_nomad"
         ],
         "exits": [
             "highwayman",
@@ -3212,7 +3212,7 @@
             "protagonist",
             "rapscallion",
             "sergeant",
-            "targeteercareer"
+            "targeteer"
         ],
         "exits": [
             "assassin",
@@ -3277,7 +3277,7 @@
             "camp_follower",
             "peasant",
             "rat_catcher",
-            "vagabondcareer"
+            "vagabond"
         ],
         "exits": [
             "bone_picker",
@@ -3337,7 +3337,7 @@
             "smuggler",
             "thief",
             "thug",
-            "tomb_robbercareer"
+            "tomb_robber"
         ],
         "exits": [
             "cat_burglar",
@@ -3395,7 +3395,7 @@
             "apothecary",
             "barber-surgeon",
             "student",
-            "tradesmancareer"
+            "tradesman"
         ],
         "exits": [
             "apprentice_wizard",
@@ -3454,7 +3454,7 @@
             "bounty_hunter",
             "hunter",
             "road_warden",
-            "watchmancareer"
+            "watchman"
         ],
         "exits": [
             "spy",
@@ -3512,7 +3512,7 @@
             "artisan",
             "miner",
             "student",
-            "tradesmancareer"
+            "tradesman"
         ],
         "exits": [
             "artisan",
@@ -3568,7 +3568,7 @@
             "herald",
             "rogue",
             "thief",
-            "vagabondcareer"
+            "vagabond"
         ],
         "exits": [
             "animal_trainer",
@@ -3640,7 +3640,7 @@
         "description": "(Core) The elder members of the great Elven mercantile families are far removed from the everyday life of the Empire. To them, Humans live and die so quickly that it\u2019s hard to keep up with current trends and politics in the Old World. When they need such knowledge, they turn to their Envoys. These young Elves are the public face of the Merchant Houses. They negotiate the contracts, make the deals, and keep the peace with the Humans of trading hubs such as Altdorf, Nuln, and Marienburg. Even Elves have a limit to their patience, so it is unsurprising that many Envoys take leave of their families for the adventurer\u2019s life. ",
         "entries": [
             "student",
-            "tradesmancareer"
+            "tradesman"
         ],
         "exits": [
             "charlatan",
@@ -3694,7 +3694,7 @@
     "estalian_diestro": {
         "description": "(Core) The Estalian Kingdoms are southwest of the Empire. There the threat of Chaos seems remote. The Chaos Wastes are quite distant from this sunny land, which has never witnessed the wrath of bloodthirsty hordes the way the Empire and Kislev have. Its people engage in other pursuits, from science and scholarship to crime and vendetta. One thing Estalians dearly love is swordplay. Its cities sport many fencing schools, each with its own style. Many of these styles are descended from the teachings of Master Figueroa, a legendary swordsman who applied the latest scienti\ufb01c theories to his swordplay with spectacular results. Followers of the Figueroa style, known as Diestro, \ufb01ght and duel across Estalia. Some, bored with their homeland, seek excitement elsewhere, favouring Tilea and Bretonnia. The bravest travel northeast to the Empire to test their rapiers against worthy opponents, and to see a land in the front line of the struggle against Chaos. Note: If this is your Starting Career, you are from Estalia, but have come to the Empire to seek adventure. ",
         "entries": [
-            "nonecareer"
+            "none"
         ],
         "exits": [
             "bodyguard",
@@ -3747,7 +3747,7 @@
         "description": "(TiT) All cities require taxes and tari\ufb00s to function. The constant \ufb02ow of money ensures public works and servants receive the funding they need, whilst also lining the pockets of the politicians. But no matter how good the cause or how noble the deed, no one likes to pay taxes. Since this is unpopular reality, most lawmakers distance themselves from the collection of monies, relying on specially hired Excisemen to do their work instead. Of all the people in the city, the Exciseman is likely the most unpopular, right alongside the dyers, beggars, and the rest of the rabble. Though they face hostility at every turn, most Excisemen know their duty is a necessary one. Still, these individuals are rarely well paid for their thankless job. As a result, few of them enjoy what they do and look for the fastest route to improve their lot, either through skimming the co\ufb00ers and double-dealing or working extra hard in the faint hope of securing a better position in the government.Note: If you\u2019re rolling for your starting career, you may substitute Exciseman for Burgher with your GM\u2019s permission.",
         "entries": [
             "messenger",
-            "scribecareer"
+            "scribe"
         ],
         "exits": [
             "agitator",
@@ -3805,7 +3805,7 @@
         "description": "(SH) Among the many dangers (natural and unnatural) facing the people of the Old World is possession by male\ufb01c spirits. Seeking to do harm in the land of the living, these spirits take over the bodies of their victims with the goal of wreaking as much havoc as possible. Some are nearly mindless, sending their hosts on violent rampages ending most often in the death of all concerned. Others are subtler in their activities, using the victim\u2019s unwitting friends, family, and associates to help it carry out horrifying deeds. Among the Undead, possession commonly re\ufb02ects a desire to resume the life the spirit once led, to be close again to a loved one, or to have revenge.To battle this vile threat and, if possible, save the life and soul of the possessed victim, some cults have assigned particular individuals to be specialists in driving the possessing spirit out. These exorcists spend countless hours pouring over tomes of forbidden lore. They are men and women of dedication and strong will \u2013 they have to be, for exorcism is a test of faith and will between exorcist and spirit. Some, however, crack under the strain and break down, their licenses revoked and their careers over. Others become corrupted by the lore they studied so assiduously and begin to serve the powers they once fought against.",
         "entries": [
             "anointed_priest",
-            "priest___career"
+            "priest"
         ],
         "exits": [
             "anointed_priest",
@@ -3876,7 +3876,7 @@
             "scout",
             "sea_captain",
             "spy",
-            "wizard_lordcareer"
+            "wizard_lord"
         ],
         "exits": [
             "captain",
@@ -3950,7 +3950,7 @@
             "politician",
             "questing_knight",
             "steward",
-            "veterancareer"
+            "veteran"
         ],
         "exits": [
             "crime_lord",
@@ -4015,7 +4015,7 @@
             "merchant",
             "peasant",
             "tradesman",
-            "veterancareer"
+            "veteran"
         ],
         "exits": [
             "innkeeper",
@@ -4080,7 +4080,7 @@
             "smuggler",
             "steward",
             "thief",
-            "tomb_robbercareer"
+            "tomb_robber"
         ],
         "exits": [
             "charlatan",
@@ -4132,7 +4132,7 @@
         "entries": [
             "coachman",
             "smuggler",
-            "toll_keepercareer"
+            "toll_keeper"
         ],
         "exits": [
             "boatman",
@@ -4185,7 +4185,7 @@
         "entries": [
             "hunter",
             "militiaman",
-            "toll_keepercareer"
+            "toll_keeper"
         ],
         "exits": [
             "bounty_hunter",
@@ -4241,7 +4241,7 @@
         "description": "(Core) Fishermen seek the bounty of the sea. The many villages on Nordland\u2019s coastline are home to countless Fishermen. These hearty souls brave the Sea of Claws in small craft, despite the constant threat of pirates and raiders from Norsca. There are also some \ufb01shing communities inland, by lakes and rivers, though these villages also pursue agriculture. Fishermen are an independent lot as a matter of course. They work in small crews, and when on the water every decision is their own. This spirited nature is one reason why dockside taverns are always unruly. Note: During character creation, if you take Common Knowledge (the Wasteland), your character can be from the great port of Marienburg at your option.",
         "entries": [
             "boatman",
-            "peasantcareer"
+            "peasant"
         ],
         "exits": [
             "marine",
@@ -4296,7 +4296,7 @@
             "peasant",
             "scribe_(marker)",
             "stevedore",
-            "tradesmancareer"
+            "tradesman"
         ],
         "exits": [
             "demagogue",
@@ -4352,7 +4352,7 @@
             "messenger",
             "smuggler",
             "student",
-            "tradesmancareer"
+            "tradesman"
         ],
         "exits": [
             "artisan",
@@ -4415,7 +4415,7 @@
             "fisherman",
             "skald",
             "whaler",
-            "tradesmancareer"
+            "tradesman"
         ],
         "exits": [
             "artisan",
@@ -4478,7 +4478,7 @@
             "prelate",
             "scholar",
             "vagabond",
-            "zealotcareer"
+            "zealot"
         ],
         "exits": [
             "demagogue",
@@ -4533,7 +4533,7 @@
         "entries": [
             "bone_picker",
             "camp_follower",
-            "peasantcareer"
+            "peasant"
         ],
         "exits": [
             "boatman",
@@ -4598,7 +4598,7 @@
             "mercenary",
             "student",
             "thief",
-            "vagabondcareer"
+            "vagabond"
         ],
         "exits": [
             "charlatan",
@@ -4657,7 +4657,7 @@
             "outlaw",
             "peasant",
             "tradesman",
-            "vagabondcareer"
+            "vagabond"
         ],
         "exits": [
             "battle_pilgrim",
@@ -4709,7 +4709,7 @@
     "grandmaster": {
         "description": "(ToS) A grandmaster is a paragon of knightly virtues and the leader of one of the knightly orders. A grandmaster is not only one of the most fearsome warriors in the Old World, but also a legendary commander and leader of men. There are very few grandmasters in the Old World, for even amongst those dedicated individuals who have the skill and strength of mind to become a Knight of the Inner Circle, few have what it takes to reach the pinnacle of knighthood. A grandmaster is always at the forefront of an army when it marches to war, leading his fellow knights, and often the entire army, into battle. He is usually amongst the most trusted of military advisors and generals, and when not engaged in warfare is often charged with planning for it. A grandmaster of a templar order is often a leading personality within a religious cult as well, commanding total loyalty from its warriors.",
         "entries": [
-            "knight_of_the_inner_circlecareer"
+            "knight_of_the_inner_circle"
         ],
         "exits": [
             "captain",
@@ -4776,7 +4776,7 @@
             "barber-surgeon",
             "bone_picker",
             "ex-convict",
-            "rat_catchercareer"
+            "rat_catcher"
         ],
         "exits": [
             "cat_burglar",
@@ -4833,7 +4833,7 @@
         "entries": [
             "bone_picker",
             "rat_catcher",
-            "peasantcareer"
+            "peasant"
         ],
         "exits": [
             "grave_robber",
@@ -4890,7 +4890,7 @@
             "engineer",
             "merchant",
             "physician",
-            "wizard_lordcareer"
+            "wizard_lord"
         ],
         "exits": [
             "crime_lord",
@@ -4945,7 +4945,7 @@
     "hedge_master": {
         "description": "(SoE) Those fully initiated into the ancient mysteries of Hedgecraft are called Hedge Masters, although outsiders often know them as Wise Ones or Cunning Folk. Most live on the periphery of the communities they serve, and are known for their healing skills and the potions, tonics, and charms they sell. They lead private lives, keen to avoid those who may take o\ufb00ense at their trade and beliefs, and are generally welcomed by locals for the services they provide. A select few Hedge Masters work directly for their Hedgewise, seeking out and neutralising threats to the Hedgefolk. This is dangerous work, for it often involves direct contact with Witch Hunters and Imperial Magisters to better learn their movements and understand their motivations.",
         "entries": [
-            "hedgecraft_apprenticecareer"
+            "hedgecraft_apprentice"
         ],
         "exits": [
             "artisan",
@@ -5007,7 +5007,7 @@
     "hedge_wizard": {
         "description": "(Core) Hedge Wizards are magically talented people with no formal magical training. Using instinct, luck, and superstitious trappings, they can perform minor, specialized spells. Though they may not always be aware of it, Hedge Wizards dally with danger every time they use their charms and cantrips. For this reason the Witch Hunters eagerly track and execute these unfortunate folk who all too often  unconsciously invite daemons and disaster into the world. Some Hedge Wizards take the sensible route and join the Orders of Magic, whilst others hide their shameful secret.",
         "entries": [
-            "nonecareer"
+            "none"
         ],
         "exits": [
             "apprentice_wizard",
@@ -5060,7 +5060,7 @@
         "entries": [
             "apothecary",
             "peasant",
-            "hedge_witchcareer"
+            "hedge_witch"
         ],
         "exits": [
             "apothecary",
@@ -5121,7 +5121,7 @@
     "hedgewise": {
         "description": "(SoE) The Hedgewise are the oldest, most experienced Hedgefolk. They lead their brethren and are responsible for protecting them from all ills. A Hedgewise may need to tackle a multitude of di\ufb00erent threats, ranging from itinerant Warrior-Priests keen to spread Sigmar\u2019s Word at the end of a hammer, to secretive Cults who could bring the wrath of the Witch Hunters down upon the local community. Indeed, many Hedgewise soon learn a deep hatred of the servants of the Ruinous Powers, for they bring unwanted attention to the Hedgefolk, and are anathema to their way of life. Because of this, it is not uncommon to \ufb01nd some Hedgewise crossing the Hedge to hunt real Witches with as much fervour, if not more, as the Magisters and the Cult of Sigmar.",
         "entries": [
-            "hedge_mastercareer"
+            "hedge_master"
         ],
         "exits": [
             "physician",
@@ -5188,7 +5188,7 @@
         "description": "(Core) Heralds are the voices of the nobility, dutybound to announce the arrival of their lords and patrons, or who occasionally carry news of important events from afar. They are inevitably skilled speakers, swift wits, and greatly educated for the times. Heralds are expected to recognize the heraldry of hundreds of Nobles on sight, hence their namesake. They are seldom Nobles themselves, but their position is regarded as one of the few that acts as a stepping-stone into the ranks of the lesser nobility. Heralds pride themselves on their personal appearance, as it is a re\ufb02ection upon whichever lord they serve.",
         "entries": [
             "messenger",
-            "valetcareer"
+            "valet"
         ],
         "exits": [
             "agitator",
@@ -5261,7 +5261,7 @@
             "noble",
             "peasant",
             "rogue",
-            "woodsmancareer"
+            "woodsman"
         ],
         "exits": [
             "demagogue",
@@ -5316,7 +5316,7 @@
     "high_priest": {
         "description": "(Core) A High Priest is the living embodiment of his God\u2019s will in the Old World. They are fairly rare, as few individuals have both the strength of character and the boundless faith it takes to reach such a lofty post. High Priests, with very few exceptions, will operate out of one of the primary centres of their faith. Pilgrims will travel the breadth of the Empire just to speak for a few moments with such a being. High Priests tend to either reject the physical world, retiring to a monastery or embrace the temporal, becoming powerful secular leaders.",
         "entries": [
-            "anointed_priestcareer"
+            "anointed_priest"
         ],
         "exits": [
             "politician",
@@ -5388,7 +5388,7 @@
             "outrider",
             "rapscallion",
             "roadwarden",
-            "toll_keepercareer"
+            "toll_keeper"
         ],
         "exits": [
             "agitator",
@@ -5449,7 +5449,7 @@
         "description": "(TiT) The rites of Taal demand great physical, emotional, and mental fortitude for its practitioners. Some see the trappings of civilization \u2013 cities, courts, and the like \u2013 as a failing in the interpretation of Taal\u2019s will. The Horned Hunters are deeply zealous and shun the city. Unlike Taal\u2019s Chosen, the Horned Hunters give up much in the way of a material life. They shun normal clothing and armour and wear animal skins, loincloths, or less. Part of their initiation into this group is to undergo extensive tattooing, covering their chest and face. Horned Hunters prowl the woods both within the Taalbaston and throughout Talabecland and claim allegiance only to Taal. While they lack the \ufb01ery rhetoric of most zealots, they are still fervent in their beliefs and believe that conversion comes from actions, rather than words.",
         "entries": [
             "initiate_(of_taal)",
-            "scribecareer"
+            "scribe"
         ],
         "exits": [
             "hunter",
@@ -5504,7 +5504,7 @@
             "horse_master",
             "noble",
             "peasant",
-            "steppes_nomadcareer"
+            "steppes_nomad"
         ],
         "exits": [
             "captain",
@@ -5570,7 +5570,7 @@
             "drover",
             "horse_master",
             "messenger",
-            "steppes_nomadcareer"
+            "steppes_nomad"
         ],
         "exits": [
             "burgher",
@@ -5640,7 +5640,7 @@
             "soldier",
             "squire",
             "steppes_nomad",
-            "winged_lancercareer"
+            "winged_lancer"
         ],
         "exits": [
             "ataman",
@@ -5700,7 +5700,7 @@
             "animal_trainer",
             "charcoal-burner",
             "kithband_warrior",
-            "woodsmancareer"
+            "woodsman"
         ],
         "exits": [
             "animal_trainer",
@@ -5764,7 +5764,7 @@
             "student",
             "vampire_hunter",
             "witch_hunter",
-            "zealotcareer"
+            "zealot"
         ],
         "exits": [
             "barber-surgeon",
@@ -5821,7 +5821,7 @@
         "entries": [
             "burgher",
             "farmer",
-            "servantcareer"
+            "servant"
         ],
         "exits": [
             "burgher",
@@ -5881,7 +5881,7 @@
             "bodyguard",
             "flagellant",
             "jailer",
-            "thugcareer"
+            "thug"
         ],
         "exits": [
             "physician",
@@ -5930,7 +5930,7 @@
         "description": "(Core) The Empire is a nation of laws, which means it\u2019s also a nation of jails. Despite the best e\ufb00orts of the clergy of Verena, the Goddess of Justice, the innocent are just as likely as the guilty to end up in jail. Better too harsh than too lax is the opinion of the law. Imperial jails are foul dungeons that smell equally of fear and excrement. Jailers preside over these institutions, using a combination of brutality and humiliation to keep order. Jailers generally have no sense of justice or pity, and are seldom swayed by pleas or speeches (though bribes are gladly accepted). The worst are outright sadists, delighting in the power they hold over their charges. ",
         "entries": [
             "bodyguard",
-            "rat_catchercareer"
+            "rat_catcher"
         ],
         "exits": [
             "baili\ufb00",
@@ -5985,7 +5985,7 @@
     "journeyman_wizard": {
         "description": "(Core) Human Journeymen Wizards have completed their apprenticeship and joined an Order of Wizardry. They now have access to all the spells of their chosen lore, but they must balance their newfound powers with their faltering ability to control them. The majority of Journeymen owe considerable teaching fees to their College, and must adventure to repay their debt. Journeymen Wizards hire out their services, often at their Orders\u2019 request, for gold, knowledge and political betterment of their College. Elves, of course, are exempt from the College system, and owe nothing.Note: If you are human you must pay a 40 gc fee upon entry to this career to obtain your Licence. Unless you come from a moneyed background, you must also pay one crown in every ten you earn back to your College for the duration of this career. You may attempt to avoid this, but few succeed in defrauding the Orders for long.",
         "entries": [
-            "apprentice_wizard_career"
+            "apprentice_wizard"
         ],
         "exits": [
             "charlatan",
@@ -6041,7 +6041,7 @@
         "description": "(Core) A number of Old World countries legally allow a defendant to proof his innocence via trial by combat. The accused are usually pitted against the local Judicial Champion, a professional \ufb01ghter who specializes in defeating a single opponent swiftly and e\ufb03ciently. Many of the laws that allow such combats state that speci\ufb01c weapons must be used; meaning Judicial Champions are well versed with a wide variety of arms. Correspondingly, Judicial Champions are both respected and feared warriors, whose prowess often precedes them. Noble defendants and the wealthy may sometimes be capable of hiring a Judicial Champion to \ufb01ght in their place.",
         "entries": [
             "sergeant",
-            "veterancareer"
+            "veteran"
         ],
         "exits": [
             "assassin",
@@ -6092,7 +6092,7 @@
     "kislevite_kossar": {
         "description": "(Core) Originally, the Kossars were an Ungol tribe that lived northeast of the Empire. An eastern people known as the Gospodars invaded this region, subjugated the Ungols, and founded the nation of Kislev. During this con\ufb02ict, the Kossars sold their skills to the Gospodars as Mercenaries, \ufb01ghting against other Ungol tribes. Their unique style of \ufb01ghting impressed the Gospodar nobility, and since that time Kossar regiments have served the Tzars of Kislev. These days the Kossars are no longer a tribe, but a tough military unit drawn from all over Kislev. They are armed with bows and great axes, making them quite \ufb02exible on the battle\ufb01eld. Many Kossars, tired of the ceaseless warfare of their native land, travel to the Empire to become Mercenaries or adventurers.Note: If this is your Starting Career, you are from Kislev. ",
         "entries": [
-            "nonecareer"
+            "none"
         ],
         "exits": [
             "bounty_hunter",
@@ -6147,7 +6147,7 @@
         "description": "(Core) Some Elves live in secluded glades deep inside the great forests. As the taint of Chaos has become worse, these Elven lands have declined. Within the Empire few Elven communities are left, the largest being in Laurelorn. Beneath the boughs of the forest the Elves \ufb01ght a hidden battle with Beastmen and other foul creatures. Small units of warriors, known as Kithbands, take the \ufb01ght to the enemy. As their name indicates, Kithbands are made up of Elves from related family groups and they \ufb01ght under their clan emblems. These skilled bowmen protect the Elf settlements from the dark things of the wood. Every bow is needed to stave o\ufb00 the destruction of the remaining Elf lands of the Empire. ",
         "entries": [
             "hunter",
-            "messengercareer"
+            "messenger"
         ],
         "exits": [
             "hunter",
@@ -6203,7 +6203,7 @@
             "pistolier",
             "sergeant",
             "squire",
-            "vampire_huntercareer"
+            "vampire_hunter"
         ],
         "exits": [
             "captain",
@@ -6262,7 +6262,7 @@
         "entries": [
             "knight",
             "noble",
-            "squirecareer"
+            "squire"
         ],
         "exits": [
             "knight_of_the_realm"
@@ -6319,7 +6319,7 @@
             "noble_lord",
             "priest_(myrmidia)",
             "sergeant",
-            "squirecareer"
+            "squire"
         ],
         "exits": [
             "captain",
@@ -6384,7 +6384,7 @@
         "description": "(Core) Within each knightly order there are those who rise to the top, the best of the best. They have proven themselves valiant and loyal time and time again and for that they are brought into the inner circle of the order. They command Knights in the \ufb01eld, represent the order at court, and make the important decisions. They are some of the greatest warriors the Old World has to o\ufb00er and many of them have been entrusted with dangerous secrets about the foundations of their group. Each one of them aspires to become the Grand Master of his order. That is the pinnacle of knighthood.",
         "entries": [
             "knight",
-            "witch_huntercareer"
+            "witch_hunter"
         ],
         "exits": [
             "captain",
@@ -6453,7 +6453,7 @@
         "entries": [
             "black_guard",
             "knight",
-            "knight_of_the_inner_circlecareer"
+            "knight_of_the_inner_circle"
         ],
         "exits": [
             "captain",
@@ -6521,7 +6521,7 @@
     "knight_of_the_realm": {
         "description": "(KotG) Knights of the Realm are the backbone of the Bretonnian army and the most common members of its ruling elite. They have distinguished themselves in errantry and received a \ufb01ef or a position in some other noble\u2019s household. They are expected to honor and defend their lord, as well as the Realm. The knights described in Chapter Eight of Knights of the Grail are primarily Knights of the Realm.",
         "entries": [
-            "knight_errantcareer"
+            "knight_errant"
         ],
         "exits": [
             "captain",
@@ -6586,7 +6586,7 @@
             "militiaman",
             "outrider",
             "soldier",
-            "woodsmancareer"
+            "woodsman"
         ],
         "exits": [
             "priest",
@@ -6645,7 +6645,7 @@
             "noble_lord",
             "sergeant",
             "squire",
-            "witch_huntercareer"
+            "witch_hunter"
         ],
         "exits": [
             "captain",
@@ -6713,7 +6713,7 @@
             "charcoal-burner",
             "peasant",
             "rat_catcher",
-            "servant_career"
+            "servant"
         ],
         "exits": [
             "agitator",
@@ -6773,7 +6773,7 @@
         "entries": [
             "friar",
             "initiate",
-            "priest_career"
+            "priest"
         ],
         "exits": [
             "friar",
@@ -6834,7 +6834,7 @@
             "exciseman",
             "scribe",
             "student",
-            "watchmancareer"
+            "watchman"
         ],
         "exits": [
             "agitator",
@@ -6892,7 +6892,7 @@
             "hunter",
             "peasant",
             "vagabond",
-            "woodsmancareer"
+            "woodsman"
         ],
         "exits": [
             "carcassonne_shepherd",
@@ -6951,7 +6951,7 @@
             "freeholder",
             "reaver",
             "skald",
-            "special*career"
+            "special*"
         ],
         "exits": [
             "chaos_warrior_(to"
@@ -7005,7 +7005,7 @@
         "entries": [
             "boatman",
             "fisherman",
-            "seamancareer"
+            "seaman"
         ],
         "exits": [
             "mate",
@@ -7061,7 +7061,7 @@
             "fence",
             "highwayman",
             "racketeer",
-            "spycareer"
+            "spy"
         ],
         "exits": [
             "crime_lord",
@@ -7127,7 +7127,7 @@
     "master_wizard": {
         "description": "(Core) A Master Wizard is one who wields magic with surety and \ufb01nesse. Elf Wizards \ufb01nd this level of spell casting easy to attain, but for a Human, it is a life\u2019s work. By the time they reach this level of mastery, most Wizards begin to exhibit eccentricities and physical changes wrought by close association with magic. Master Wizards usually prefer to spend their time researching or politicking with fellow magisters. However, their Order usually requires them to adventure in the world at large, furthering the cause of their art, and seeking out young folk to apprentice.Note: If you are Human you must continue to pay dues to your Order for the duration of this career. Most colleges charge Master Wizards a reduced rate of one crown in every twenty. Elves do not belong to the Orders of Magic, and thus owe nothing.",
         "entries": [
-            "journeyman_wizard_career"
+            "journeyman_wizard"
         ],
         "exits": [
             "explorer",
@@ -7182,7 +7182,7 @@
         "description": "(Core) Mates serve on ships as the second in command, answering directly to the Captain of the vessel. They are responsible for ensuring that the Captain\u2019s orders are carried out, which can be a trying task with even the most professional of crews. Mates have to be stern but fair, earning the respect of their crew or they will swiftly \ufb01nd themselves the butt of many practical jokes and far worse if a mutiny should occur. Mates are always experienced sailors, often with several voyages under their belt and there are few ports they haven\u2019t drank, fought, or caroused in.",
         "entries": [
             "marine",
-            "seamancareer"
+            "seaman"
         ],
         "exits": [
             "explorer",
@@ -7239,7 +7239,7 @@
             "man-at-arms",
             "herrimault",
             "peasant",
-            "roguecareer"
+            "rogue"
         ],
         "exits": [
             "demagogue",
@@ -7301,7 +7301,7 @@
             "pit_fighter",
             "soldier",
             "thug",
-            "watchmancareer"
+            "watchman"
         ],
         "exits": [
             "bodyguard",
@@ -7367,7 +7367,7 @@
             "mate",
             "scholar",
             "steward",
-            "tradesmancareer"
+            "tradesman"
         ],
         "exits": [
             "farmer",
@@ -7427,7 +7427,7 @@
         "entries": [
             "militiaman",
             "roadwarden",
-            "servantcareer"
+            "servant"
         ],
         "exits": [
             "cartographer",
@@ -7489,7 +7489,7 @@
             "merchant",
             "peasant",
             "tradesman",
-            "woodsman_career"
+            "woodsman"
         ],
         "exits": [
             "artisan",
@@ -7544,7 +7544,7 @@
         "description": "(Core) Mountains surround the Empire. To the east are the World\u2019s Edge Mountains, to the south the Black Mountains, and to the west the Grey Mountains. Dwarfs and Humans have mined these mountains from time immemorial, despite constant attacks from Goblins and other subterranean horrors. Miners brave these conditions in search of iron, silver, gold, gems, and other valuables. Others prefer to prospect on the surface, particularly in the Middle Mountains, which straddle the provinces of Ostland and Hochland. Although these forest-shrouded mountains are fully within the Empire\u2019s borders, they are a haven for Trolls, Beastmen, and other foul creatures. Surviving in such an environment takes skill and toughness. ",
         "entries": [
             "charcoal-burner",
-            "huntercareer"
+            "hunter"
         ],
         "exits": [
             "charcoal-burner",
@@ -7600,7 +7600,7 @@
     "minstrel": {
         "description": "(Core) Minstrels are wandering musicians who travel the roads of the Old World bringing their songs and entertainment to those who desperately need it. The original and most renowned Minstrels were Elves but now many Humans follow in their footsteps. Minstrels are close to sacred in the Old World. They can walk into some of the most dangerous dens of cutthroats and come out unscathed (as long as they\u2019re willing to provide free entertainment, of course). Occasionally, a Minstrel will accept patronage from a Noble or Merchant and settle down for a time, composing songs at his patron\u2019s request. Eventually, though, the open road calls and the Minstrel moves on again. ",
         "entries": [
-            "entertainercareer"
+            "entertainer"
         ],
         "exits": [
             "charlatan",
@@ -7657,7 +7657,7 @@
             "physician",
             "scholar",
             "scribe",
-            "studentcareer"
+            "student"
         ],
         "exits": [
             "abbot",
@@ -7716,7 +7716,7 @@
             "burgher",
             "hunter",
             "messenger",
-            "peasantcareer"
+            "peasant"
         ],
         "exits": [
             "animal_trainer",
@@ -7772,7 +7772,7 @@
         "description": "(RC) Some Anchorites and Cenobites become so full of wisdom (or full of something, anyway) that they progress to being Mystics. No longer content to seek wisdom by themselves, they insist on telling others of their discoveries, seeking to lead them to enlightenment also. Many leaders of monasteries are Mystics, as most sensible communities drive them out as soon as they realise what they are like.A few Mystics actually discover the secrets of supernatural power. They tout this as proof of the value of their \u201cinsights.\u201d",
         "entries": [
             "anchorite",
-            "cenobitecareer"
+            "cenobite"
         ],
         "exits": [
             "charlatan",
@@ -7825,7 +7825,7 @@
             "fisherman",
             "mate",
             "scribe",
-            "seamancareer"
+            "seaman"
         ],
         "exits": [
             "artisan",
@@ -7878,7 +7878,7 @@
             "messenger",
             "peasant",
             "servant",
-            "studentcareer"
+            "student"
         ],
         "exits": [
             "agitator",
@@ -7934,7 +7934,7 @@
         "description": "(Core) The Nobles are the ruling class of the Empire. They wield the power, they control the land, and they make the laws. The most important Noble families are those of Imperial Electors and of course the Emperor himself. There are hundreds of others though, and they all vie for more money and more power. Some seek their fortunes in war, others in business or politics. None would sully themselves by practicing a common trade. The most contemptible Nobles do nothing at all, merely live o\ufb00 their family wealth and attend an endless array of parties, dances, and gala events. The younger children of Noble houses, however, do not have it so easy. Since inheritance goes to the eldest, they must often make their own way in the world, even if it means slumming amongst the lower classes and falling in with adventurers and ne\u2019er-do-wells. ",
         "entries": [
             "squire",
-            "stewardcareer"
+            "steward"
         ],
         "exits": [
             "courtier",
@@ -7997,7 +7997,7 @@
             "knight",
             "knight_of_the_inner_circle",
             "politician",
-            "sea_captaincareer"
+            "sea_captain"
         ],
         "exits": [
             "captain",
@@ -8055,7 +8055,7 @@
     "norse_berserker": {
         "description": "(Core) Norsca is a grim northern land, full of fell beasts such as Ice Trolls and Chaos Spawn, and it breeds tough \ufb01ghters. The berserkers are a rightly feared warrior cult. Its members go into battle without armour to prove they have no fear. They work themselves into an incredible rage, often biting on their own shields. Their feats \ufb01ll the sagas and loom large in the stories of those Imperial soldiers that have faced them. Some few berserkers make their way to the Empire because they\u2019ve been exiled or simply have a desire to see more of the world. They rarely stay in one place for long, since no Watchman wants a frothing lunatic disturbing the peace. Berserkers are highly prized Mercenaries, however, due to their rarity and e\ufb00ectiveness. ",
         "entries": [
-            "nonecareer"
+            "none"
         ],
         "exits": [
             "mercenary",
@@ -8122,7 +8122,7 @@
             "squire",
             "toll_keeper",
             "woodsman",
-            "zealotcareer"
+            "zealot"
         ],
         "exits": [
             "demagogue",
@@ -8183,7 +8183,7 @@
             "master_thief",
             "racketeer",
             "scout",
-            "veterancareer"
+            "veteran"
         ],
         "exits": [
             "assassin",
@@ -8245,7 +8245,7 @@
             "kithband_warrior",
             "messenger",
             "roadwarden",
-            "soldiercareer"
+            "soldier"
         ],
         "exits": [
             "coachman",
@@ -8312,7 +8312,7 @@
             "newssheet_vendor",
             "scholar",
             "scribe",
-            "studentcareer"
+            "student"
         ],
         "exits": [
             "demagogue",
@@ -8365,7 +8365,7 @@
     "peasant": {
         "description": "(Core) The peasantry makes up the preponderance of the Empire\u2019s population. While the Nobles rule and the Burghers trade, the Peasants toil. They are farmers, labourers, and herdsman. In times of war, they \ufb01ght and die for the Empire.  Many Peasants seek a better life in the city, only to join the legion of beggars on the verge of starvation. The majority spends their whole lives in the village they were born in, surrounded by hostile country and only occasionally getting news of the outside world. While they are provincial and superstitious, the Peasants are the heart of the Empire. ",
         "entries": [
-            "nonecareer"
+            "none"
         ],
         "exits": [
             "bone_picker",
@@ -8426,7 +8426,7 @@
             "initiate",
             "outlaw",
             "student",
-            "zealotcareer"
+            "zealot"
         ],
         "exits": [
             "cenobite",
@@ -8479,7 +8479,7 @@
             "barber-surgeon",
             "interrogator",
             "scholar",
-            "studentcareer"
+            "student"
         ],
         "exits": [
             "friar",
@@ -8538,7 +8538,7 @@
         "description": "(Core) Pistoliers are the elite light cavalry of the Imperial Army. They specialize in wielding \ufb01rearms, speci\ufb01cally pistols. Pistoliers have only come into their own recently, as gunpowder weapons have been relatively unstable until now in the Old World. Because of the expense of their weapons and the constant upkeep that pistols and warhorses require, Noblemen dominate the ranks of the Pistoliers. Many young Nobles volunteer for the Pistoliers in search of glory or in the hopes of making a name. ",
         "entries": [
             "engineer",
-            "noblecareer"
+            "noble"
         ],
         "exits": [
             "courtier",
@@ -8596,7 +8596,7 @@
             "norse_berserker",
             "protagonist",
             "shieldbreaker",
-            "thugcareer"
+            "thug"
         ],
         "exits": [
             "bounty_hunter",
@@ -8664,7 +8664,7 @@
             "peasant",
             "prelate",
             "racketeer",
-            "toll_keepercareer"
+            "toll_keeper"
         ],
         "exits": [
             "courtier",
@@ -8726,7 +8726,7 @@
         "entries": [
             "friar",
             "lay_priest",
-            "priestcareer"
+            "priest"
         ],
         "exits": [
             "demagogue",
@@ -8792,7 +8792,7 @@
             "friar",
             "initiate",
             "lay_priest",
-            "prelatecareer"
+            "prelate"
         ],
         "exits": [
             "anointed_priest",
@@ -8855,7 +8855,7 @@
             "bounty_hunter",
             "estalian_diestro",
             "ex-convict",
-            "pit_fightercareer"
+            "pit_fighter"
         ],
         "exits": [
             "duellist",
@@ -8908,7 +8908,7 @@
     "questing_knight": {
         "description": "(KotG) Questing Knights seek the Grail. Following in the footsteps of Louis the Rash, they cross Bretonnia and the rest of the world, seeking the blessing of the Lady of the Lake. Those knights who have succeeded in their quest have met the Lady in a variety of places, so the quest is not a search for a place. Rather, it is an e\ufb00ort to prove oneself worthy of the Grail. Thus, Questing Knights strive to show themselves to be paragons of knighthood, seeking out dangerous situations in which to uphold the honour of Bretonnia and the Lady of the Lake.Questing Knights renounce the use of the lance because it is the weapon of loyal service, and a Questing Knight stands apart from the feudal hierarchy until his quest is complete.",
         "entries": [
-            "knight_of_the_realmcareer"
+            "knight_of_the_realm"
         ],
         "exits": [
             "captain",
@@ -8986,7 +8986,7 @@
             "politician",
             "protagonist",
             "spy",
-            "thugcareer"
+            "thug"
         ],
         "exits": [
             "fence",
@@ -9048,7 +9048,7 @@
             "seaman",
             "soldier",
             "student",
-            "vagabondcareer"
+            "vagabond"
         ],
         "exits": [
             "charlatan",
@@ -9106,7 +9106,7 @@
             "dilettante",
             "gambler",
             "raconteur",
-            "vagabond__career"
+            "vagabond"
         ],
         "exits": [
             "charlatan",
@@ -9169,7 +9169,7 @@
             "grave_robber",
             "jailer",
             "runebearer",
-            "tomb_robbercareer"
+            "tomb_robber"
         ],
         "exits": [
             "animal_trainer",
@@ -9231,7 +9231,7 @@
             "seaman",
             "skald",
             "warleader",
-            "whalercareer"
+            "whaler"
         ],
         "exits": [
             "marine",
@@ -9290,7 +9290,7 @@
             "ferryman",
             "messenger",
             "outrider",
-            "watchmancareer"
+            "watchman"
         ],
         "exits": [
             "highwayman",
@@ -9354,7 +9354,7 @@
             "noble",
             "seaman",
             "thief",
-            "valetcareer"
+            "valet"
         ],
         "exits": [
             "charlatan",
@@ -9409,7 +9409,7 @@
     "runebearer": {
         "description": "(Core) The Undgrin Ankor, a network of elaborate tunnels that once ran the length of the World\u2019s Edge Mountains, connects the Dwarfholds east of the Empire. Communication between holds is carried out by means of Runebearers  \u2013 specially trained young Dwarfs who risk life and limb to carry messages (written in the runic script of the Dwarfs) from one hold to another. Over recent centuries, as more Dwarfholds have fallen to the Goblinoids and more tunnels have become ruined, the Runebearers\u2019 lot has become increasingly di\ufb03cult. They are forced to take more circuitous routes, and even these are fraught with danger as the enemies discover the routes. Often, Runebearers must leave the tunnels altogether and cross mountains and valleys on the surface. Runebearers who specialize in long distances are sometimes used to carry messages between the Dwarf communities of the Empire and those of mountains. ",
         "entries": [
-            "shieldbreakercareer"
+            "shieldbreaker"
         ],
         "exits": [
             "rat_catcher",
@@ -9477,7 +9477,7 @@
             "priest",
             "scribe",
             "sea_captain",
-            "studentcareer"
+            "student"
         ],
         "exits": [
             "apprentice_wizard",
@@ -9525,7 +9525,7 @@
     "scourge_of_god": {
         "description": "(ToS) Those who serve their Gods as \ufb02agellants sometimes survive throwing themselves into danger to smite the forces of Chaos and darkness. Those who survive long enough become scourges of God, mighty warriors for their deity, blessed with a degree of divine protection.Scourges of God are often highly charismatic, and gather other fanatics around them. In times of war, they are highly praised by the cult hierarchy, but when peace comes the priests prefer to move them along as quickly as possible, lest they \ufb01nd too many \u201cenemies of God\u201d within the towns of cities.Most scourges of God die bravely in battle, but some do move on, often to other ways of discovering and punishing the corrupt. Scourges of God almost always substitute the name of their God when describing themselves: scourge of Sigmar, scourge of Ulric, and so on.",
         "entries": [
-            "flagellantcareer"
+            "flagellant"
         ],
         "exits": [
             "champion",
@@ -9591,7 +9591,7 @@
             "roadwarden",
             "runebearer",
             "vagabond",
-            "woodsmancareer"
+            "woodsman"
         ],
         "exits": [
             "cartographer",
@@ -9654,7 +9654,7 @@
         "entries": [
             "apprentice_wizard",
             "cartographer",
-            "initiatecareer"
+            "initiate"
         ],
         "exits": [
             "agitator",
@@ -9709,7 +9709,7 @@
             "explorer",
             "mate",
             "navigator",
-            "noble_lordcareer"
+            "noble_lord"
         ],
         "exits": [
             "explorer",
@@ -9771,7 +9771,7 @@
             "ferryman",
             "fisherman",
             "norse_berserker",
-            "smugglercareer"
+            "smuggler"
         ],
         "exits": [
             "marine",
@@ -9824,7 +9824,7 @@
         "description": "(ToC) Seers are self-appointed authorities on all matters involving the spiritual world. They can be found in marketplaces of any town, proclaiming their latest revelation to anyone who will listen. Since Seers operate outside the bounds of sanctioned religious laws, and purport to understand the will of the Gods, they are easy targets for persecutions by Witch Hunters, who don\u2019t draw a line of distinction between the authentic seers and the charlatans. In Norsca, however, Seers are valued members of a Jarl\u2019s entourage, reading the signs and portents in the entrails of their sacri\ufb01ce or translating the \ufb02ickers of \ufb01re to divine some glimpse of future events.",
         "entries": [
             "hedge_wizard",
-            "skaldcareer"
+            "skald"
         ],
         "exits": [
             "agitator",
@@ -9890,7 +9890,7 @@
             "squire",
             "targeteer",
             "veteran",
-            "watchmancareer"
+            "watchman"
         ],
         "exits": [
             "captain",
@@ -9946,7 +9946,7 @@
         "entries": [
             "camp_follower",
             "peasant",
-            "roguecareer"
+            "rogue"
         ],
         "exits": [
             "agitator",
@@ -10009,7 +10009,7 @@
             "peasant",
             "rat_catcher",
             "shieldbreaker",
-            "watchmancareer"
+            "watchman"
         ],
         "exits": [
             "mercenary",
@@ -10069,7 +10069,7 @@
         "description": "(ToC) Skalds are the keepers of lore, the chroniclers of the histories of the Norse. Part entertainer, part warrior, these individuals are held in high esteem for their wisdom and knowledge. All Kings keep Skalds in their retinues, as do most Jarls. When the call for war is sounded, the Skald bears the banner and marches to battle with his comrades.",
         "entries": [
             "bondsman",
-            "entertainercareer"
+            "entertainer"
         ],
         "exits": [
             "agitator",
@@ -10139,7 +10139,7 @@
         "entries": [
             "marauder",
             "merchant",
-            "reavercareer"
+            "reaver"
         ],
         "exits": [
             "captain",
@@ -10206,7 +10206,7 @@
             "marine",
             "miner",
             "seaman",
-            "shieldbreakercareer"
+            "shieldbreaker"
         ],
         "exits": [
             "boatman",
@@ -10265,7 +10265,7 @@
             "hunter",
             "messenger",
             "toll_keeper",
-            "watchmancareer"
+            "watchman"
         ],
         "exits": [
             "mercenary",
@@ -10327,7 +10327,7 @@
             "physician",
             "rapscallion",
             "sea_captain",
-            "servantcareer"
+            "servant"
         ],
         "exits": [
             "assassin",
@@ -10386,7 +10386,7 @@
         "entries": [
             "herald",
             "noble",
-            "valetcareer"
+            "valet"
         ],
         "exits": [
             "knight",
@@ -10439,7 +10439,7 @@
     "steppes_nomad": {
         "description": "(RotIQ) Uncounted krugs of Ungol nomads wander the frozen steppes of the Troll Country. These tribesmen were pushed north when the Gospodars invaded and have roamed the dangerous province ever since. There, they follow their domesticated herds from pasture to pasture, chasing the warmth of Dazh, their patron, and settling brie\ufb02y in portable huts called kibitkas. They are a passionate and \ufb01erce folk, tempered by harsh surroundings and endless con\ufb02icts with marauding kyazaks. By Kislevite law, every nomadic krug is expected to annually form a rota of Kislev\u2019s famed horse archers, which then patrols the northern oblast every Spring Driving, ruthlessly slaughtering any invaders they encounter.",
         "entries": [
-            "anycareer"
+            "any"
         ],
         "exits": [
             "ataman",
@@ -10498,7 +10498,7 @@
         "description": "(WC) Stevedores are specialist dockers, trained to properly pack and unpack cargo holds. Loading a ship is skill-intensive and dangerous work, for vessels can overbalance and capsize if packed incorrectly, and unsecured cargoes can crush the unwary. Within the claustrophobic ship interiors, Stevedores wind \u201cstevedore lashings\u201d (special knots) with wedges of wood to secure and protect the heavy freight. Many Stevedors specialise in \u201cporting\u201d one type of cargo, as each good requires di\ufb00erent skills to manipulate, stack and pack correctly. Thus, most larger wharfs have gangs of \u201cporters\u201d that identify themselves according to the goods they import or export, including \ufb01sh porters, meat porters and deal porters (for timber). None are more famous than the black-liveried coal porters of Nuln, known for their anything-goes attitude and love of bawdy docker songs. Stevedores wear distinctive cloth watch caps dyed with their gang colours, both to identify their allegiances and to protect themselves from the elements. Stevedore gangs jealously guard their wharfs from rivals, and it takes little provocation for them to dish out \u201clashings\u201d of a di\ufb00erent kind.Note: If you are rolling randomly for your Starting Career, you can substitute Stevedore for Boatman with your GM\u2019s approval.",
         "entries": [
             "boatman",
-            "peasantcareer"
+            "peasant"
         ],
         "exits": [
             "boatman",
@@ -10558,7 +10558,7 @@
             "politician",
             "priest",
             "scholar",
-            "valetcareer"
+            "valet"
         ],
         "exits": [
             "crime_lord",
@@ -10615,7 +10615,7 @@
         "description": "(RotIQ) The streltsi were originally a rota of kossars from Erengrad. Led by Boyar Boydinov \u2013 an eccentric noble obsessed with the Empire \u2013 they wielded pole-axes rather than axes, mirroring the halberds favoured by the State Regiments of Ostland. In 2345 IC, whilst driving back a Chaos horde alongside Empire allies, the wide-eyed boyar witnessed Imperial black powder for the \ufb01rst time. His kossars were changed forever. Now, many years after the death of Boydinov, the streltsi are the foremost masters of \ufb01rearms in Kislev, weapons once viewed with fear and superstition. Soldiers from across Kislev travel to Erengrad to earn the crossed \u201cberdysh and handgun\u201d badge, which is awarded to any who train with the streltsi for more than two seasons.",
         "entries": [
             "kossar",
-            "watchmancareer"
+            "watchman"
         ],
         "exits": [
             "bounty_hunter",
@@ -10669,7 +10669,7 @@
     "strigany_mystic": {
         "description": "(NDM) The people of Strigos were scattered to the winds when their lands were destroyed and have since taken up a nomadic life. They roam the Empire in caravan trains or river barges, making money where they can and stealing when they can\u2019t. Their history under the Vampires ensures they maintain their travelling lifestyle, marking them not just as thieves and cutthroats but also necromancers and servants of darkness. In truth, most of them are simple woodsmen, entertainers, or vagabonds, but a few do know something of witchcraft, a little of fortune telling, and a large amount of Vampire lore. These mystics were taught the true and complete history of their people, and they carry the secret knowledge from those ancient days, as well as the promise of their Strigos lords to one day return and lead them back to glory.Note: Strigany mystic is only available to those of Strigany blood. Being of that blood imposes a \u201310% penalty to all Fellowship Tests when dealing with a person of the Empire. With your GM\u2019s permission, you may substitute Strigany mystic for vagabond when rolling for your Starting Career. If you have the WFRP Companion, you may apply the River Strigany Traits to your Strigany mystic.",
         "entries": [
-            "nonecareer"
+            "none"
         ],
         "exits": [
             "astrologer",
@@ -10731,7 +10731,7 @@
             "grave_robber",
             "minstrel",
             "noble",
-            "valetcareer"
+            "valet"
         ],
         "exits": [
             "agitator",
@@ -10784,7 +10784,7 @@
         "entries": [
             "anchorite",
             "peasant",
-            "vagabondcareer"
+            "vagabond"
         ],
         "exits": [
             "mercenary",
@@ -10839,7 +10839,7 @@
             "frogwife",
             "hunter",
             "militiaman",
-            "peasantcareer"
+            "peasant"
         ],
         "exits": [
             "grail_pilgrim",
@@ -10902,7 +10902,7 @@
             "ghost_strider",
             "master_thief",
             "vampire_hunter",
-            "veterancareer"
+            "veteran"
         ],
         "exits": [
             "assassin",
@@ -10958,7 +10958,7 @@
             "initiate",
             "militiaman",
             "watchman",
-            "zealotcareer"
+            "zealot"
         ],
         "exits": [
             "initiate",
@@ -11021,7 +11021,7 @@
             "smuggler",
             "toll_keeper",
             "tomb_robber",
-            "vagabondcareer"
+            "vagabond"
         ],
         "exits": [
             "cat_burglar",
@@ -11078,7 +11078,7 @@
         "entries": [
             "ex-convict",
             "marine",
-            "protagonist_career"
+            "protagonist"
         ],
         "exits": [
             "bodyguard",
@@ -11132,7 +11132,7 @@
         "entries": [
             "baili\ufb00",
             "coachman",
-            "roadwardencareer"
+            "roadwarden"
         ],
         "exits": [
             "ferryman",
@@ -11190,7 +11190,7 @@
             "dilettante",
             "runebearer",
             "shieldbreaker",
-            "thiefcareer"
+            "thief"
         ],
         "exits": [
             "ex-convict",
@@ -11253,7 +11253,7 @@
             "camp_follower",
             "dilettante",
             "peasant",
-            "watchmancareer"
+            "watchman"
         ],
         "exits": [
             "artisan",
@@ -11305,7 +11305,7 @@
     "troll_slayer": {
         "description": "(Core) Dwarfs who have been disgraced, crossed in love, or otherwise humiliated abandon traditional society and seek the sweet release of death. They hunt the most dangerous of monsters in the hopes of \ufb01nding a glorious end. Most of them die fairly quickly, but those few who survive become members of the strange cult of Troll Slayers. They exist only to die, and by doing so redeem whatever disgrace they su\ufb00ered in the past. They seek the \ufb01ercest foes, and Trolls are considered ideal because the Dwarfs\u2019 deaths are almost a certainty. Troll Slayers are instantly recognizable, with their spiky orange hair, outlandish tattoos, and gaudy jewellery. They spend a great deal of time boasting of their exploits and show o\ufb00 their many scars, and often indulge in bouts of overeating, drunkenness, and sleep deprivation. Note: Only Dwarfs can join this career. Taking the Slayer\u2019s path is a sure route to death. Think carefully before entering this career.",
         "entries": [
-            "pit_fightercareer"
+            "pit_fighter"
         ],
         "exits": [
             "giant_slayer"
@@ -11365,7 +11365,7 @@
             "kithband_warrior",
             "outlaw",
             "soldier",
-            "woodsmancareer"
+            "woodsman"
         ],
         "exits": [
             "bone_picker",
@@ -11422,7 +11422,7 @@
         "description": "(Core) A Valet is a personal manservant for a Nobleman, high-ranking military commander, or wealthy Burgher. He is responsible for the comfort and appearance of his charge, including grooming, wardrobe, and presentation. A Valet is ready with a hat and cloak when it\u2019s raining, a walking stick for outdoor jaunts, and a dress coat for formal occasions. A well-trained Valet is indispensable for the style-conscious Noble. Though they enjoy a lifestyle most Servants would kill for, Valets often resent the vacuous Nobles they are forced to attend. Women who perform these services for Noblewomen are known as handmaidens. ",
         "entries": [
             "burgher",
-            "servantcareer"
+            "servant"
         ],
         "exits": [
             "herald",
@@ -11481,7 +11481,7 @@
             "ghost_strider",
             "knight",
             "scout",
-            "tomb_robbercareer"
+            "tomb_robber"
         ],
         "exits": [
             "demagogue",
@@ -11551,7 +11551,7 @@
             "watchman",
             "scholar",
             "spy",
-            "witch_huntercareer"
+            "witch_hunter"
         ],
         "exits": [
             "initiate_(verena)",
@@ -11628,7 +11628,7 @@
             "runebearer",
             "shieldbreaker",
             "soldier",
-            "squirecareer"
+            "squire"
         ],
         "exits": [
             "champion",
@@ -11685,7 +11685,7 @@
         "entries": [
             "faceless",
             "mediator",
-            "yeomancareer"
+            "yeoman"
         ],
         "exits": [
             "demagogue",
@@ -11738,7 +11738,7 @@
         "entries": [
             "man-at-arms",
             "peasant",
-            "tradesmancareer"
+            "tradesman"
         ],
         "exits": [
             "spy",
@@ -11790,7 +11790,7 @@
         "entries": [
             "bondsman",
             "marauder",
-            "reavercareer"
+            "reaver"
         ],
         "exits": [
             "captain",
@@ -11843,7 +11843,7 @@
         "description": "(Core) Originally, cities and towns were responsible for recruiting and maintaining their own watch organisations. Corruption was so widespread that the Emperor gave the job to the army instead. Now, certain regiments on garrison duty must serve as the town watch. This has cut down dramatically on corruption, though the army itself is not immune. Watchmen are responsible for maintaining law and order and are empowered to make arrests. They also double as \ufb01re \ufb01ghters in smaller towns. For some Soldiers, watch duty is a temporary assignment. For others, it becomes a lifelong career. ",
         "entries": [
             "jailer",
-            "soldiercareer"
+            "soldier"
         ],
         "exits": [
             "mercenary",
@@ -11900,7 +11900,7 @@
         "entries": [
             "fisherman",
             "reaver",
-            "seamancareer"
+            "seaman"
         ],
         "exits": [
             "freeholder",
@@ -11963,7 +11963,7 @@
             "noble",
             "outrider",
             "peasant",
-            "streltsicareer"
+            "streltsi"
         ],
         "exits": [
             "captain",
@@ -12024,7 +12024,7 @@
     "wise_woman": {
         "description": "(RotIQ) Most Ungol communities are tended by a krug of dark-shawled wise women. These no-nonsense matriarchs guard uncounted generations of oral traditions and tribal secrets. This knowledge is put to good use tending the sick, aiding childbirth, advising local leaders, placating the spirits of the land, and warding their folk against the taint of Chaos. Wise women krugs gather in specially decorated kibitkas that men are forbidden to enter; there, they share lore and discuss matters of importance. Girls who demonstrate \u201cthe sight\u201d are interviewed in these tents to determine their suitability to join the wise women, an experience that can terrify even the strong of mind.",
         "entries": [
-            "anycareer"
+            "any"
         ],
         "exits": [
             "demagogue",
@@ -12092,7 +12092,7 @@
             "high_priest",
             "judicial_champion",
             "knight_of_the_inner_circle",
-            "vampire_huntercareer"
+            "vampire_hunter"
         ],
         "exits": [
             "captain",
@@ -12159,7 +12159,7 @@
     "wizard_lord": {
         "description": "(Core) Within the Empire, the Lords of the Magical Orders are powerful individuals indeed. They no longer see the world as others do, however, having dedicated their very souls to magic. They now embody their chosen Lore in word, deed and physical form. Should an Elf attain this level of magical skill, he is considered to have completed his minor magic apprenticeship, and is ready to travel to the towers of Hoeth to become a High Mage.Note: Wizard Lords no longer pay dues to their Order. They are, however, charged with preserving the purity of their order, rooting out Chaos worshippers, and ensuring the Orders receive the respect (and monies) due to them.",
         "entries": [
-            "master_wizard_career"
+            "master_wizard"
         ],
         "exits": [
             "explorer",
@@ -12212,7 +12212,7 @@
         "description": "(Core) Woodsmen live among the mighty forests of the Empire, looking after trees they will fell for timber. The more fortunate Woodsmen work for Noble families on large estates. The braver souls work on the edges of civilisation, helping to expand the settled lands. These Woodsmen must deal with all the dangers of the forest, from pitfalls and bandits to wild animals and Beastmen. They always keep their axes handy and not just for chopping wood. Woodsmen have been known to clash with Elves, since the Elves do not take kindly to the clearing of their precious forests. ",
         "entries": [
             "charcoal-burner",
-            "vagabondcareer"
+            "vagabond"
         ],
         "exits": [
             "hunter",
@@ -12271,7 +12271,7 @@
             "peasant",
             "riverwarden",
             "seaman",
-            "smugglercareer"
+            "smuggler"
         ],
         "exits": [
             "boatman",
@@ -12325,7 +12325,7 @@
         "entries": [
             "carcassonne_shepherd",
             "man-at-arms",
-            "mercenarycareer"
+            "mercenary"
         ],
         "exits": [
             "faceless",
@@ -12390,7 +12390,7 @@
             "initiate",
             "judicial_champion",
             "peasant",
-            "tradesmancareer"
+            "tradesman"
         ],
         "exits": [
             "agitator",
