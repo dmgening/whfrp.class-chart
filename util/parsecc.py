@@ -66,7 +66,6 @@ if __name__ == '__main__':
                 career['talents'] = map(lambda x: x.strip(), career['talents'].split(','))
                 career['trappings'], line = split_literal(line, 'Entries: ')
                 career['trappings'] = map(lambda x: x.strip(), career['trappings'].split(','))
-                import ipdb; ipdb.set_trace()
                 career['entries'], line = split_literal(line, 'Exits: ')
                 career['entries'] = map(lambda x: x.strip().lower().replace(' ', '_'), career['entries'].split(','))
                 career['exits'] = re.match('^.*?[A-Z][a-z]+[A-Z]', line).group()[:-1]
