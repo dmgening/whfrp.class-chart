@@ -7,15 +7,21 @@ html, body, .hstretch {
   border-left: 1px solid #888;
   border-right: 1px solid #888;
   height: 100vh;
+  overflow: hidden;
 }
 
 .nopadding {
   padding: 0;
 }
 
+#searchform {
+  .form-group { margin-bottom: 0; }
+}
+
 #classlist {
-  overflow: scroll;
-  height:96%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
   ul {
     list-style-type:none;
     padding: 0;
@@ -50,7 +56,8 @@ html, body, .hstretch {
 }
 
 #classinfo {
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   #quote {
     font-style: italic;
   }
@@ -72,6 +79,15 @@ html, body, .hstretch {
       background: #777;
       color: #EEE;
       font-weight: bold;
+    }
+  }
+
+  ul#entries, ul#exits {
+    list-style-type: none;
+    padding: 0px;
+    li {
+      display: inline;
+      padding-right: 0.5em;
     }
   }
 }
