@@ -43,7 +43,7 @@ if __name__ == '__main__':
                 # Find career name
                 name = re.match('^[A-Z -]+', line).group()
                 name = name[:-2 if name.endswith(' ') else -1]
-                career['name'] = name.capitalize()
+                career['name'] = name.title()
                 line = line[len(name):]
                 # Parse quote
                 career['quote'], line = split_literal(line, '(', 'tail')
