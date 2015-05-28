@@ -32,6 +32,9 @@ html, body, .hstretch {
     li:first-child {
       border-top: 1px solid #888;
     }
+    li.active {
+      background-color: #AAA;
+    }
   }
   .label-basic {
     padding: 5px;
@@ -97,4 +100,23 @@ html, body, .hstretch {
   display: block;
   margin: 0 auto;
   padding: 5px;
+
+  .node {
+    font-size: 0.7em;
+    fill: #bbb;
+  }
+  .node:hover {
+    fill: #000;
+  }
+  
+  .active {
+    fill: #000;
+  }
+
+  .link {
+    fill: none;
+    pointer-events: none;
+    stroke: #000;
+    stroke-opacity: 0.1;
+  }
 }

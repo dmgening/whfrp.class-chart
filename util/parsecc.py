@@ -12,7 +12,7 @@ import json
 def split_literal(line, literal, append=None):
     head, sep, tail = line.partition(literal)
     if not sep:
-        raise ValueError('No such literal "{}" in line: {}'.format(literal, line))
+        raise ValueError('No such literal: {}'.format(literal))
     if append == 'head':
         head += sep
     elif append == 'tail':
@@ -21,7 +21,7 @@ def split_literal(line, literal, append=None):
 
 
 if __name__ == '__main__':
-    results = dict()
+    results = list()
     lnum = 0
     with open('cc.full.txt') as compendum:
         for line in compendum.readlines():
@@ -44,6 +44,9 @@ if __name__ == '__main__':
                 name = re.match('^[A-Z -]+', line).group()
                 name = name[:-2 if name.endswith(' ') else -1]
                 career['name'] = name.title()
+                career['id'] = name.lower().replace(' ', '_')
+                if not career['id'] or len(career['id']) < 3:
+                    raise ValueError('Weird name, skip')
                 line = line[len(name):]
                 # Parse quote
                 career['quote'], line = split_literal(line, '(', 'tail')
@@ -75,6 +78,6 @@ if __name__ == '__main__':
                 career['exits'] = map(lambda x: x.strip().lower().replace(' ', '_'), career['exits'].split(','))
             except Exception, e:
                 print '[{2}]ERROR: {0}\nLINE: {1}'.format(e, srcline, lnum)
-            results[career.get('name').lower().replace(' ', '_')] = career
+            results.append(career)
     with open('resuls.json', 'w') as results_file:
         json.dump(results, results_file)
