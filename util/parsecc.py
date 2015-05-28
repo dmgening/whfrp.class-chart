@@ -41,7 +41,7 @@ if __name__ == '__main__':
                     career['special'] = True
                     line = line[10:]
                 # Find career name
-                name = re.match('^[A-Z ]+', line).group()
+                name = re.match('^[A-Z -]+', line).group()
                 name = name[:-2 if name.endswith(' ') else -1]
                 career['name'] = name.capitalize()
                 line = line[len(name):]

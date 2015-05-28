@@ -1098,7 +1098,7 @@
         ],
         "type": "Basic"
     },
-    "barbe": {
+    "barber-surgeon": {
         "description": "(Core) Barber-Surgeons provide painful but e\ufb00ective healing to the common folk of the Empire. They are not as learned as Physicians, which is why Physicians maintain a separate guild, but they know quite a lot about anatomy. While they do cut hair and shave, they are more noted for their bleedings, surgeries, and amputations. Barber-Surgeons carry a variety of razor-sharp blades, from small scalpels to enormous bone saws. They have even more sinister looking tools for the most hated of their avocations: dentistry. Many large ships have a dedicated Barber-Surgeon as part of the crew; they are also common in towns and cities.",
         "entries": [
             "dilettante",
@@ -1122,8 +1122,8 @@
             "10",
             "5"
         ],
-        "name": "Barbe",
-        "quote": "R-SURGEONThis won\u2019t hurt a bit. Before I start, though, you may want to bite down on this leather strop.",
+        "name": "Barber-surgeon",
+        "quote": "This won\u2019t hurt a bit. Before I start, though, you may want to bite down on this leather strop.",
         "secondaryprofile": [
             "-",
             "2",
@@ -3326,69 +3326,6 @@
         ],
         "type": "Basic"
     },
-    "e": {
-        "description": "(New) The prisons of the Old World are brutal sub-realms unto themselves where only the strong and ruthless survive. Of the few convicts who do live through their sentences, most return to society as harder criminals than before they entered prison. The Shallyan might preach about forgiveness and second-chances, but the truth is that the rare ex-convict who does manage to reform is met with the same suspicion and resentment as those who do not. In the end, most ex-convicts are released into an unreceptive world with few opportunities other than to commit new crimes, return to prison and begin the cycle anew.",
-        "entries": [
-            "agitator",
-            "grave_robber",
-            "outlaw",
-            "protagonist",
-            "rogue",
-            "smuggler",
-            "thief",
-            "thug",
-            "tomb_robber"
-        ],
-        "exits": [
-            "cat_burglar",
-            "charlatan",
-            "fence",
-            "grave_robber",
-            "highwayman",
-            "outlaw",
-            "protagonist",
-            "racketeer",
-            "thug",
-            "vagabond"
-        ],
-        "mainprofile": [
-            "10",
-            "-",
-            "5",
-            "10",
-            "5",
-            "-",
-            "10",
-            "-"
-        ],
-        "name": "E",
-        "quote": "X-CONVICTOh yes, sir, I\u2019m completely reformed. I\u2019ve learned my lesson, m\u2019lord. Honest Rickard, that\u2019s what they\u2019ll be calling me from now on, strewth. ",
-        "secondaryprofile": [
-            "-",
-            "2",
-            "-",
-            "-",
-            "-",
-            "-",
-            "-",
-            "-"
-        ],
-        "skills": [
-            "Concealment",
-            "Dodge Blow",
-            "Secret Language (Prison Cant)"
-        ],
-        "talents": [
-            "Flee!",
-            "Resistance to Disease or Contortionist"
-        ],
-        "trappings": [
-            "Good Craftsmanship Improvised Weapon",
-            "Bone Dice",
-            "Lice"
-        ],
-        "type": "Basic"
-    },
     "embalmer": {
         "description": "(NDM) Not everyone wishes to be interred in Morr\u2019s Gardens. Some prefer a more preserving process after their death, for themselves or their animal companions, and they turn to the embalmers. These masters of pickling, preservation, and taxidermy are not just a fad of the wealthy. The individuals increasingly have a hand in the growing \ufb01eld of medicine, and money can be made hand over \ufb01st in selling their curios to customers with a particular purpose in mind. Many priests of Morr (and much of the general population) consider cutting bits o\ufb00 people and putting them in jars to be an assault on both the body and spirit of the deceased, and Witch Hunters are well aware of how easily such merchants turn to the dark arts. As such, many embalmers choose to hide their Human exhibits behind their animal displays or their surgery services until the day scientists of their calibre are \ufb01nally given the respect and recognition they deserve.Embalmers don\u2019t usually encounter the Undead, but they work hand-in-glove with grave robbers and tomb robbers who often do. They also tend to know a lot of necromancers \u2013 not that they would ever reveal their customer\u2019s identity, of course.",
         "entries": [
@@ -3740,6 +3677,69 @@
             "Foil or Rapier",
             "One set of Best Craftsmenship Clothes",
             "Perfume or Cologne"
+        ],
+        "type": "Basic"
+    },
+    "ex-convict": {
+        "description": "(New) The prisons of the Old World are brutal sub-realms unto themselves where only the strong and ruthless survive. Of the few convicts who do live through their sentences, most return to society as harder criminals than before they entered prison. The Shallyan might preach about forgiveness and second-chances, but the truth is that the rare ex-convict who does manage to reform is met with the same suspicion and resentment as those who do not. In the end, most ex-convicts are released into an unreceptive world with few opportunities other than to commit new crimes, return to prison and begin the cycle anew.",
+        "entries": [
+            "agitator",
+            "grave_robber",
+            "outlaw",
+            "protagonist",
+            "rogue",
+            "smuggler",
+            "thief",
+            "thug",
+            "tomb_robber"
+        ],
+        "exits": [
+            "cat_burglar",
+            "charlatan",
+            "fence",
+            "grave_robber",
+            "highwayman",
+            "outlaw",
+            "protagonist",
+            "racketeer",
+            "thug",
+            "vagabond"
+        ],
+        "mainprofile": [
+            "10",
+            "-",
+            "5",
+            "10",
+            "5",
+            "-",
+            "10",
+            "-"
+        ],
+        "name": "Ex-convict",
+        "quote": "Oh yes, sir, I\u2019m completely reformed. I\u2019ve learned my lesson, m\u2019lord. Honest Rickard, that\u2019s what they\u2019ll be calling me from now on, strewth. ",
+        "secondaryprofile": [
+            "-",
+            "2",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-"
+        ],
+        "skills": [
+            "Concealment",
+            "Dodge Blow",
+            "Secret Language (Prison Cant)"
+        ],
+        "talents": [
+            "Flee!",
+            "Resistance to Disease or Contortionist"
+        ],
+        "trappings": [
+            "Good Craftsmanship Improvised Weapon",
+            "Bone Dice",
+            "Lice"
         ],
         "type": "Basic"
     },
@@ -6885,7 +6885,7 @@
         ],
         "type": "Basic"
     },
-    "ma": {
+    "man-at-arms": {
         "description": "(KotG) Whilst knights are the backbone of Bretonnian armies, peasants form the bulk. Some receive no training at all and are simply rounded up and pointed at the enemy. Men-at-Arms are the lucky ones. When they were paraded before their lord, he decided they had the potential to \ufb01ght back and ordered that they be trained.Still, the training and equipment that Men-at-Arms receive are not very good, and whilst they do receive some pay, it is far less than you might expect for risking your life. Most important, they are given no choice in the matter. As a result, it is not uncommon for Men-at-Arms to seize any chance to desert, and many deserters take up a life of adventure.",
         "entries": [
             "carcassonne_shepherd",
@@ -6912,8 +6912,8 @@
             "-",
             "-"
         ],
-        "name": "Ma",
-        "quote": "N-AT-ARMSYou shall \ufb01ght at his Lordship\u2019s command and his whim. You shall be better than you were, for you wield and wear the arms of his Excellency! And you shall die, if that sacri\ufb01ce be demanded of you, but you die well for the cause of our Lord.",
+        "name": "Man-at-arms",
+        "quote": "You shall \ufb01ght at his Lordship\u2019s command and his whim. You shall be better than you were, for you wield and wear the arms of his Excellency! And you shall die, if that sacri\ufb01ce be demanded of you, but you die well for the cause of our Lord.",
         "secondaryprofile": [
             "-",
             "2",
