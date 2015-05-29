@@ -75,16 +75,31 @@ function showTooltip(career_name){
     .append('li').append('a').on('click', setActive).text(IDOrName);
 }
 
+// List functions
+var career_list = d3.select('#classlist ul').selectAll('li')
+function filterList(text){
+}
+
 
 d3.json("data/careers.json", function(error, data) {
   data.forEach(function(d){ careers[d.id] = d; });
-  list = d3.select('#classlist ul').selectAll('li')
-    .data(Object.keys(careers)).enter().append('li')
-    .attr('id', function(d){ return 'list_' + d; });
+
+  career_list = career_list.data(Object.keys(careers))
+  list = career_list.enter().append('li').attr('id', function(d){ return 'list_' + d; });
   list.append('a').text(function(d){ return careers[d].name }).on('click', setActive);
   list.append('span').attr('class', function(d){
     return 'pull-right label label-' + careers[d].type.toLowerCase();
   }).text(function(d){ return careers[d].type[0]; });
+  
+  // Search form
+  d3.select('#searchform input').on('input', function(d){
+    var text = this.value
+    if(text){
+      career_list.classed('hidden', false).classed('hidden', function(d){ return careers[d].name.indexOf(text) < 0; });
+    } else {
+      career_list.classed('hidden', false)
+    }
+  });
 
   var nodes = cluster.nodes(function(){
     var map = {"": {id: "", children: []}};
@@ -114,7 +129,6 @@ d3.json("data/careers.json", function(error, data) {
     .data(bundle(links))
     .enter().append("path")
     .each(function(d) {
-      console.log(d)
       d.source = d[0], d.target = d[d.length - 1]; 
     })
     .attr("class", "link")
@@ -130,5 +144,6 @@ d3.json("data/careers.json", function(error, data) {
     .on('click', function(d){ setActive(d.id) })
     .on('mouseover', mouseOver)
     .on('mouseout', mouseOut)
+  
   
 });
