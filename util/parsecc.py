@@ -45,7 +45,7 @@ if __name__ == '__main__':
                 name = name[:-2 if name.endswith(' ') else -1]
                 career['name'] = name.title()
                 career['id'] = name.lower().replace(' ', '_')
-                if not career['id'] or len(career['id']) < 3:
+                if 25 < len(career['id']) < 3:
                     raise ValueError('Weird name, skip')
                 line = line[len(name):]
                 # Parse quote

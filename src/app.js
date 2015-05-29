@@ -125,31 +125,33 @@ d3.json("data/careers.json", function(error, data) {
     })
     return map[""];
   }());
+
   var links = function(){
-    var map = {}, links = [];
+    var map = {}, link_map = {}, links = [];
     nodes.forEach(function(d){ map[d.id] = d; });
     nodes.forEach(function(d){
-      function appendImports(i){
-        if(map[i]){
-          links.push({source: map[d.id], target: map[i]});
+      function append_links(i){
+        var skv = [i, d.id].sort();
+        if(skv[0] && skv[1]){
+          link_map[skv[0]] = skv[1]
         }
       }
-      c = d.id && careers[d.id]
-      if(c.entries && c.exits){
-        c.entries.forEach(appendImports);
-        c.exits.forEach(appendImports);
-      }
+      c = d.id && careers[d.id];
+      c && c.entries.forEach(append_links);
+      c && c.exits.forEach(append_links);
     });
+    Object.keys(link_map).forEach(function(d){
+      if(map[d] && map[link_map[d]]){
+        links.push({source: map[d], target: map[link_map[d]]});
+      }
+    })
     return links;
   }();
   link = link
-    .data(bundle(links))
-    .enter().append("path")
-    .each(function(d) {
-      d.source = d[0], d.target = d[d.length - 1]; 
-    })
-    .attr("class", "link")
-    .attr("d", line);
+    .data(bundle(links)).enter().append("path")
+    .each(function(d) { d.source = d[0], d.target = d[d.length - 1]; })
+    .attr("class", "link").attr("d", line);
+
   node = node.data(nodes.filter(function(n) { return !n.children; }))
     .enter().append("text")
     .attr("class", "node")
