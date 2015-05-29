@@ -28,12 +28,12 @@ html, body, .hstretch {
     li {
       padding: 5px;
       border-bottom: 1px solid #888;
-    }
-    li:first-child {
-      border-top: 1px solid #888;
-    }
-    li.active {
-      background-color: #AAA;
+      &:first-child {
+        border-top: 1px solid #888;
+      }
+      &.active, &:hover {
+        background-color: #AAA;
+      }
     }
   }
   .label-basic {
@@ -104,42 +104,40 @@ html, body, .hstretch {
   .node {
     font-size: 0.7em;
     fill: #bbb;
-  }
-  .node:hover {
-    font-size: 0.75em;
-    fill: #000;
-  }
-  
-  .node.active {
-    font-size: 0.75em;
-    fill: #000;
-  }
-
-  .node.entrie {
-    font-size: 0.75em;
-    fill: #000;
-  }
-
-  .node.exit {
-    font-size: 0.75em;
-    fill: #000;
+    &:hover {
+      font-size: 0.75em;
+      fill: #000;
+    }
+    &.active {
+      font-size: 0.75em;
+      fill: #000;
+    }
+    &.entrie {
+      font-size: 0.75em;
+      fill: #B00;
+    }
+    &.exit {
+      font-size: 0.75em;
+      fill: #0B0;
+    }
   }
 
   .link {
     fill: none;
     pointer-events: none;
-    stroke: #000;
+    stroke: #999;
     stroke-opacity: 0.1;
-  }
-
-  .link.entrie {
-    stroke: #B00;
-    stroke-opacity: 1;
-  }
-
-  .link.exit {
-    stroke: #0B0;
-    stroke-opacity: 1;
+    &.entrie {
+      stroke: #B00;
+      stroke-opacity: 1;
+    }
+    &.exit {
+      stroke: #0B0;
+      stroke-opacity: 1;
+    }
+    &.entrie.exit {
+      stroke: #00B;
+    }
   }
 }
 

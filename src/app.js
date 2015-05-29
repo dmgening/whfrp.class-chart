@@ -51,12 +51,14 @@ function highlightWheel(d){
       .classed('exit', function(i){ return i.source.id == d })
       .classed('entrie', function(i){ return i.target.id == d });
   node.classed('entrie exit', false)
+      .classed('entrie', function(i){ return careers[d].entries.indexOf(i.id) > -1; })
+      .classed('exit', function(i){ return careers[d].exits.indexOf(i.id) > -1; })
 }
 
 function mouseOver(d){
-  showTooltip(d.id);  
+  showTooltip(d.id);
   highlightWheel(d.id);
-} 
+}
 
 function mouseOut(d){
   showTooltip(active_career);
@@ -100,16 +102,17 @@ d3.json("data/careers.json", function(error, data) {
 
   career_list = career_list.data(Object.keys(careers))
   list = career_list.enter().append('li').attr('id', function(d){ return 'list_' + d; });
-  list.append('a').text(function(d){ return careers[d].name }).on('click', setActive);
+  list.on('click', setActive);
+  list.append('a').text(function(d){ return careers[d].name });
   list.append('span').attr('class', function(d){
     return 'pull-right label label-' + careers[d].type.toLowerCase();
   }).text(function(d){ return careers[d].type[0]; });
-  
+
   // Search form
   d3.select('#searchform input').on('input', function(d){
-    var text = this.value
+    var text = this.value.toLowerCase()
     if(text){
-      career_list.classed('hidden', false).classed('hidden', function(d){ return careers[d].name.indexOf(text) < 0; });
+      career_list.classed('hidden', false).classed('hidden', function(d){ return careers[d].name.toLowerCase().indexOf(text) < 0; });
     } else {
       career_list.classed('hidden', false)
     }
@@ -118,7 +121,7 @@ d3.json("data/careers.json", function(error, data) {
   var nodes = cluster.nodes(function(){
     var map = {"": {id: "", children: []}};
     data.forEach(function(d){
-      map[""].children.push({id: d.id, children:[]}) 
+      map[""].children.push({id: d.id, children:[]})
     })
     return map[""];
   }());
@@ -158,6 +161,4 @@ d3.json("data/careers.json", function(error, data) {
     .on('click', function(d){ setActive(d.id) })
     .on('mouseover', mouseOver)
     .on('mouseout', mouseOut)
-  
-  
 });

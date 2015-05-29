@@ -21,7 +21,7 @@ def split_literal(line, literal, append=None):
 
 
 if __name__ == '__main__':
-    results = list()
+    results = dict()
     lnum = 0
     with open('cc.full.txt') as compendum:
         for line in compendum.readlines():
@@ -74,10 +74,26 @@ if __name__ == '__main__':
                 career['trappings'] = map(lambda x: x.strip(), re.findall('(.+?(?:\(.+?\))?),', career['trappings']))
                 career['entries'], line = split_literal(line, 'Career Exits: ')
                 career['entries'] = map(lambda x: x.strip().lower().replace(' ', '_'), career['entries'].split(','))
+                career['entries'] = filter(lambda x: x not in ('none', 'any', 'glorius_death'), career['entries'])
                 career['exits'] = re.match('^.*?[A-Z][a-z]+[A-Z]', line).group()[:-1]
                 career['exits'] = map(lambda x: x.strip().lower().replace(' ', '_'), career['exits'].split(','))
-                results.append(career)
+                career['exits'] = filter(lambda x: x not in ('none', 'any', 'glorius_death'), career['exits'])
+
+                results[career.get('id')] = career
             except Exception, e:
                 print '[{2}]ERROR: {0}\nLINE: {1}'.format(e, srcline, lnum)
+    for id, career in results.iteritems():
+        for entrie in career.get('entries'):
+            try:
+                if id not in results[entrie]['exits']:
+                    results[entrie]['exits'].append(id)
+            except Exception, e:
+                print e
+        for exit in career.get('exits'):
+            try:
+                if id not in results[exit]['entries']:
+                    results[exit]['entries'].append(id)
+            except Exception, e:
+                print e
     with open('resuls.json', 'w') as results_file:
-        json.dump(results, results_file)
+        json.dump(list(results.itervalues()), results_file)
