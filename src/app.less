@@ -106,10 +106,22 @@ html, body, .hstretch {
     fill: #bbb;
   }
   .node:hover {
+    font-size: 0.75em;
     fill: #000;
   }
   
-  .active {
+  .node.active {
+    font-size: 0.75em;
+    fill: #000;
+  }
+
+  .node.entrie {
+    font-size: 0.75em;
+    fill: #000;
+  }
+
+  .node.exit {
+    font-size: 0.75em;
     fill: #000;
   }
 
@@ -118,6 +130,16 @@ html, body, .hstretch {
     pointer-events: none;
     stroke: #000;
     stroke-opacity: 0.1;
+  }
+
+  .link.entrie {
+    stroke: #B00;
+    stroke-opacity: 1;
+  }
+
+  .link.exit {
+    stroke: #0B0;
+    stroke-opacity: 1;
   }
 }
 

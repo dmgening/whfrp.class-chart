@@ -76,8 +76,8 @@ if __name__ == '__main__':
                 career['entries'] = map(lambda x: x.strip().lower().replace(' ', '_'), career['entries'].split(','))
                 career['exits'] = re.match('^.*?[A-Z][a-z]+[A-Z]', line).group()[:-1]
                 career['exits'] = map(lambda x: x.strip().lower().replace(' ', '_'), career['exits'].split(','))
+                results.append(career)
             except Exception, e:
                 print '[{2}]ERROR: {0}\nLINE: {1}'.format(e, srcline, lnum)
-            results.append(career)
     with open('resuls.json', 'w') as results_file:
         json.dump(results, results_file)

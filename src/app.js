@@ -37,24 +37,40 @@ function setActive(career_name){
     d3.select('#list_'+active_career).classed('active', false)
     d3.select('#wheel_'+active_career).classed('active', false)
     active_career = career_name;
-    showTooltip(career_name);
     d3.select('#list_'+active_career).classed('active', true)
     d3.select('#wheel_'+active_career).classed('active', true)
+    showTooltip(career_name);
+    highlightWheel(career_name);
   } else {
     console.log('Sorry! No record in db for ' + career_name);
   }
 }
 
+function highlightWheel(d){
+  link.classed('entrie exit', false)
+      .classed('exit', function(i){ return i.source.id == d })
+      .classed('entrie', function(i){ return i.target.id == d });
+  node.classed('entrie exit', false)
+}
+
 function mouseOver(d){
   showTooltip(d.id);  
+  highlightWheel(d.id);
 } 
 
 function mouseOut(d){
   showTooltip(active_career);
+  highlightWheel(active_career);
 }
 
 function showTooltip(career_name){
   career = careers[career_name];
+
+  d3.select('#right-pannel-about').classed('hidden', career != undefined)
+  d3.select('#right-pannel-info').classed('hidden', career == undefined)
+
+  if(!career){ return }
+
   d3.select('#classname').text(career.name);
   d3.select('#quote').text(career.quote);
   d3.select('#skills').text(career.skills);
@@ -77,8 +93,6 @@ function showTooltip(career_name){
 
 // List functions
 var career_list = d3.select('#classlist ul').selectAll('li')
-function filterList(text){
-}
 
 
 d3.json("data/careers.json", function(error, data) {
