@@ -12,9 +12,7 @@ var bundle = d3.layout.bundle(),
     node = svg.append('g').selectAll('.node');
 
 var cluster = d3.layout.cluster()
-    .size([360, innerRadius])
-    .sort(null)
-//    .value(function(d){ return d.id.length; });
+    .size([360, innerRadius]);
 
 var line = d3.svg.line.radial()
     .interpolate("bundle")
@@ -131,22 +129,23 @@ d3.json("data/careers.json", function(error, data) {
     nodes.forEach(function(d){ map[d.id] = d; });
     nodes.forEach(function(d){
       function append_links(i){
-        var skv = [i, d.id].sort();
-        if(skv[0] && skv[1]){
-          link_map[skv[0]] = skv[1]
+        if(map[i]){
+          var skv = [i, d.id].sort().join();
+          link_map[skv] = [map[d.id], map[i]];
         }
       }
       c = d.id && careers[d.id];
-      c && c.entries.forEach(append_links);
-      c && c.exits.forEach(append_links);
+      if(c){
+        c.entries.forEach(append_links);
+        c.exits.forEach(append_links);
+      }
     });
     Object.keys(link_map).forEach(function(d){
-      if(map[d] && map[link_map[d]]){
-        links.push({source: map[d], target: map[link_map[d]]});
-      }
+        links.push({source:link_map[d][0], target: link_map[d][1]});
     })
     return links;
   }();
+
   link = link
     .data(bundle(links)).enter().append("path")
     .each(function(d) { d.source = d[0], d.target = d[d.length - 1]; })
